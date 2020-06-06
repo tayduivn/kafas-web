@@ -1,0 +1,70 @@
+<ion-header>
+    <ion-navbar>
+        <ion-title>{{"Contact Us" | translate}}</ion-title>
+        <ion-buttons end>
+            <button ion-button icon-only color="royal" (click)="navcart()">
+                <ion-icon name="help"></ion-icon>
+            </button>
+        </ion-buttons>
+    </ion-navbar>
+</ion-header>
+
+<ion-content class="contact">
+   <ion-row class="center2">
+     <ion-col  col-10 col-xl-8 col-lg-8 col-md-10>
+  <!---  <p class="contact-head">{{"Contact Us" | translate}}</p> -->
+ <br>
+ <br>
+  <p class="contact-head"> <ion-icon name="mail"></ion-icon> &nbsp; info@kafasxpressgas.com</p>
+  <p class="contact-head"> <ion-icon name="call"></ion-icon> &nbsp; (+234) 809-358-8553</p>
+  <p class="contact-head"> <ion-icon name="time"></ion-icon> &nbsp; Mon - Sun | 9am - 8pm</p>
+    <br>
+    
+    <form (ngSubmit)="onSend(f)" #f="ngForm">
+        <!--name-->
+        <ion-row>
+            <ion-col col-12>
+                <ion-item class="beta">
+                    <ion-label class="size" >{{"Name:" | translate}}</ion-label>
+                    <ion-input class="size" type="text" name="name" id="name" [(ngModel)]="user.name" required></ion-input>
+                </ion-item>
+            </ion-col>
+        </ion-row>
+        <!--email-->
+        <ion-row>
+            <ion-col col-12>
+                <ion-item class="beta">
+                    <ion-label class="size" >{{"Email:" | translate}}</ion-label>
+                    <ion-input class="size" type="email" name="email" id="email" [(ngModel)]="user.email" required></ion-input>
+                </ion-item>
+            </ion-col>
+        </ion-row>
+        <!--message-->
+        <ion-row>
+            <ion-col col-12>
+                <ion-item class="beta">
+                    <ion-label class="size" >{{"Message:" | translate}}</ion-label>
+                    <ion-textarea class="size" rows="6" lineHeight="42" name="message" id="message" [(ngModel)]="user.message" required></ion-textarea>
+                </ion-item>
+            </ion-col>
+        </ion-row>
+        <!--button-->
+        <ion-row>
+            <ion-col col-3>
+        </ion-col>
+            <ion-col col-6>
+                <br>
+                <button class="submit-btn" type='submit' [disabled]="!f.valid"> {{"Send" | translate}}
+                </button>
+            </ion-col>
+            <ion-col col-3>
+        </ion-col>
+        </ion-row>
+    </form>
+
+</ion-col>
+
+</ion-row>
+
+
+</ion-content>

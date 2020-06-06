@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "892138487332",
+    "firebase_url": "https://kafas-737c9.firebaseio.com",
+    "project_id": "kafas-737c9",
+    "storage_bucket": "kafas-737c9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:892138487332:android:9a5636ace9939531ffa2b1",
+        "android_client_info": {
+          "package_name": "com.kafasxpress.kafasgas"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "892138487332-8thllr8b9mqcq5v4cvnso3emmqhi7vl3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.kafasxpress.kafasgas",
+            "certificate_hash": "f4e04aa2c6e65f278442b8c512231885b5b74318"
+          }
+        },
+        {
+          "client_id": "892138487332-lr19os3nljl3mbs2opsfancpunhsv5cf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCmexQHPPy1Zmx4L6hfBnDU9LJIeRB3phs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "892138487332-lr19os3nljl3mbs2opsfancpunhsv5cf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

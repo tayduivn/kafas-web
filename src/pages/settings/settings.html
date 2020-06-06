@@ -1,0 +1,89 @@
+<ion-header>
+    <ion-navbar>
+        <ion-title>{{"Profile" | translate}}</ion-title>
+     <!----   <ion-buttons left>
+            <button ion-button icon-only (click)="onClickCancel()">
+              <ion-icon name="arrow-back"></ion-icon>
+            </button>
+        </ion-buttons>   --->
+        <ion-buttons end>
+            <button ion-button icon-only color="royal" (click)="addressMenu()" class="header-btn-cart">
+                <ion-icon name="list"></ion-icon>
+                <ion-badge class="carts" item-right color="danger">{{noOfItems}}</ion-badge>
+            </button>
+        </ion-buttons>
+  
+    </ion-navbar>
+</ion-header>
+
+<ion-content>
+
+
+     
+    <form (ngSubmit)="onSubmit(f)" #f="ngForm">
+
+          <div class="profile-image" (click)="editimage()">
+         <img src="{{avatar}}">
+         <p (click)="editimage()" class="textt" item-center>Change Profile Picture</p>
+       </div>
+       <br>
+
+     
+
+         <ion-row class="center2">
+     <ion-col  col-10 col-xl-5 col-lg-5 col-md-6>
+
+
+            <ion-item>
+                <ion-label  class="size" >{{"*First Name:"}}</ion-label>
+                <ion-input class="sizer" type="text" name="firstName" id="firstName" required [(ngModel)]="user.firstName" ></ion-input>
+            </ion-item>
+
+
+            <ion-item>
+                <ion-label  class="size" >{{"*Last Name:"}}</ion-label>
+                <ion-input class="sizer" type="text" name="lastName" id="lastName" required [(ngModel)]="user.lastName" ></ion-input>
+            </ion-item>
+
+
+            <ion-item>
+                <ion-label class="size" >{{"*Gender:" | translate}}</ion-label>
+                <ion-input class="sizer" type="text" name="gender" id="gender" required  [(ngModel)]="user.gender" ></ion-input>
+            </ion-item>
+
+
+            <ion-item>
+                <ion-label class="size" >{{"*Email:" | translate}}</ion-label>
+                <ion-input class="sizer" type="email" name="email" id="email" required [(ngModel)]="user.email" ></ion-input>
+            </ion-item>
+
+
+            <ion-item>
+                <ion-label class="size" >{{"*Phone:" | translate}}</ion-label>
+                <ion-input class="sizer" type="text" name="mobileNo" id="mobileNo" required [(ngModel)]="user.mobileNo" ></ion-input>
+            </ion-item>
+
+            <ion-item>
+                <ion-label class="size" >{{"*Address:" | translate}}</ion-label>
+                <ion-input class="sizer" type="text" name="location" id="location" required [(ngModel)]="user.location" ></ion-input>
+                <button (click)="showAddressModal()" ion-button clear class="para" type="button" item-right> SET ON MAP</button>
+            </ion-item>
+
+           <br>
+
+        <!--button-->
+        <button class="login-btn"  type="submit"  [disabled]="!f.valid" > <ion-icon name="checkmark"></ion-icon> &nbsp; {{"Save" | translate}}</button>
+   
+    <p text-center>*Ensure to always keep your profile updated.</p>
+
+
+    </ion-col>
+   </ion-row>
+  
+   
+    <br>
+    </form>
+
+     
+
+</ion-content>

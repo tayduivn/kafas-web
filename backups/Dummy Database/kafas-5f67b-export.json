@@ -1,0 +1,589 @@
+{
+  "admins" : {
+    "weQLu8jEPZhI2peECsYXeseMfm82" : true
+  },
+  "business" : {
+    "address" : "Capital Hub, Plot 272, Banex/Gwarimpa Expressway, Mabushi, Abuja.",
+    "description" : "Kafas Xpress Gas is a retail distributor of clean, super quality, and efficient Liquid Petroleum Gas. We provide clients with smart gas cylinders that monitors in real time the level of gas in the cylinders",
+    "email" : "info@kafasxpressgas.com",
+    "facebookLink" : "https://kafasxpressgas.com",
+    "officeLocation" : "https://kafasxpressgas.com",
+    "phoneNo" : "(+234) 809-358-8553",
+    "storeName" : "Kafas Xpress Gas",
+    "twitterLink" : "https://kafasxpressgas.com"
+  },
+  "categories" : {
+    "1d4aa3b29bca735e4et5" : {
+      "description" : "",
+      "thumb" : "https://res.cloudinary.com/ethion/image/upload/v1579913576/Kafas-Xpress-Gas-Cylinder-_x0x89t.jpg",
+      "title" : "Buy Gas Cylinder"
+    }
+  },
+  "categories2" : {
+    "64d6u3n6dn64sn346ndfsjeda76" : {
+      "description" : "",
+      "thumb" : "https://res.cloudinary.com/ethion/image/upload/v1580029218/a97c5300f5e6f8db.jpg_numo2q.jpg",
+      "title" : "Spear Parts"
+    }
+  },
+  "coming" : {
+    "1d4aa3b29bca735e4et010" : {
+      "thumb" : "http://res.cloudinary.com/ionicfirebaseapp/image/upload/c_scale,h_540,w_800/v1483635624/shutterstock_114177826_mm6tnl.jpg"
+    },
+    "1d4aa3b29bca735e4et50" : {
+      "thumb" : "http://res.cloudinary.com/ionicfirebaseapp/image/upload/c_scale,h_540,w_800/v1483635648/shutterstock_93878743_rugqzs.jpg"
+    },
+    "1d4aa3b29bca735e4et90" : {
+      "thumb" : "http://res.cloudinary.com/ionicfirebaseapp/image/upload/c_scale,h_540,w_800/v1483635589/shutterstock_56500270_j3dvz7.jpg"
+    }
+  },
+  "contact" : {
+    "-LN71QZc6f1_LPc6oqG5" : {
+      "email" : "asdasd@asdasd.asd",
+      "message" : "asdasdaaaaaaaaaaaaaaaaadasdasd",
+      "name" : "asdasd asd",
+      "userId" : "eIPPmSw4pNOIHkIPz3DgKaVI3Gj1"
+    },
+    "-M-1Al5SkqqxH8NA7YW_" : {
+      "email" : "jefferyaboh@gmail.com",
+      "message" : "Baba lawo bounce on you",
+      "name" : "Adasa",
+      "userId" : "TjVH7L4s4uNiY4Wz1UVYqStMqlX2"
+    },
+    "-M-VEyllkWBTe4Jmz7Rv" : {
+      "email" : "jefferyaboh@gmail.com",
+      "message" : "for pf",
+      "name" : "jeffrey aboh",
+      "userId" : "TjVH7L4s4uNiY4Wz1UVYqStMqlX2"
+    },
+    "-M-VFTSr9LY7OJIxLghv" : {
+      "email" : "t@t.com",
+      "message" : "bella naija",
+      "name" : "jeff",
+      "userId" : "TjVH7L4s4uNiY4Wz1UVYqStMqlX2"
+    }
+  },
+  "coupons" : {
+    "GFgsjkjFhjjgsjhhGVS" : {
+      "date" : 16673478232,
+      "name" : "No Coupons Available!",
+      "value" : 0
+    }
+  },
+  "currency" : {
+    "-LLd7h_Y3PsGYSB-ZBlH" : {
+      "currencyName" : "NGN",
+      "currencySign" : {
+        "symbol" : "₦"
+      }
+    },
+    "-LN72RCWYLs-wZVBPVmp" : {
+      "currencyName" : "NGN",
+      "currencySign" : {
+        "symbol" : "₦"
+      }
+    }
+  },
+  "delivery-options" : {
+    "-LK_kREcILq7tmGSMdGk" : {
+      "pincode" : 12333
+    }
+  },
+  "loyalitys" : {
+    "enable" : true,
+    "loylityPercentage" : 10,
+    "minLoyalityPointes" : "500"
+  },
+  "menuItems" : {
+    "1d4aa3b29bca735e4ea12" : {
+      "available" : true,
+      "category" : "1d4aa3b29bca735e4et5",
+      "description" : "Order your 12kg Gas Cylinder and get it delivered directly to your door step.",
+      "extraOptions" : [ {
+        "name" : "Fill with Gas",
+        "selected" : false,
+        "value" : 4500
+      } ],
+      "meta" : "Kafas Xpress Gas looks after your LPG so you don't have to,                 with everything tailored to make your gas deliveries simple and reliable,                 so you can sit back and relax knowing your supply is in expert hands.",
+      "noOfRating" : 6,
+      "offer" : true,
+      "offerPercentage" : 7,
+      "pname" : "Gas Cylinder Only",
+      "price" : [ {
+        "meta" : "Kafas Xpress Gas looks after your LPG so you don't have to,                 with everything tailored to make your gas deliveries simple and reliable,                 so you can sit back and relax knowing your supply is in expert hands.",
+        "name" : "12kg",
+        "pname" : "Gas Cylinder Only",
+        "specialPrice" : 10000,
+        "value" : 12000
+      }, {
+        "pname" : "Gas Cylinder with Pipe & Clip",
+        "specialPrice" : 13000,
+        "value" : 15000
+      } ],
+      "rating" : 4.5,
+      "reviews" : [ {
+        "comment" : "Quality",
+        "rating" : 5,
+        "userId" : "HUA3QMIEEUa4EVMFk3L7QBVHovy1"
+      }, {
+        "comment" : "Late Delivery",
+        "rating" : 2,
+        "userId" : "HUA3QMIEEUa4EVMFk3L7QBVHovy1"
+      }, {
+        "comment" : "Good delivery time",
+        "rating" : 2,
+        "userId" : "sqF6Fq6FGUYKdSIgaoyfQxLgBHp2"
+      } ],
+      "specialPrice" : 10000,
+      "thumb" : "https://res.cloudinary.com/ethion/image/upload/v1580344798/Kafas_Xpress_Gas_Cylinder_-2_syxwej.png",
+      "title" : "12kg Gas Cylinder"
+    },
+    "1d4aa3b29bca735e4ebc14" : {
+      "available" : true,
+      "category" : "1d4aa3b29bca735e4et5",
+      "description" : "Order your 25kg Gas Cylinder and get it delivered directly to your door step.",
+      "extraOptions" : [ {
+        "name" : "Fill with Gas",
+        "selected" : false,
+        "value" : 9000
+      } ],
+      "noOfRating" : 117,
+      "offer" : false,
+      "offerPercentage" : 0,
+      "price" : [ {
+        "meta" : "Kafas Xpress Gas looks after your LPG so you don't have to,                 with everything tailored to make your gas deliveries simple and reliable,                 so you can sit back and relax knowing your supply is in expert hands.",
+        "name" : "25kg",
+        "pname" : "Gas Cylinder Only",
+        "specialPrice" : 20000,
+        "value" : 24000
+      }, {
+        "pname" : "Gas Cylinder with Pipe & Clip",
+        "specialPrice" : 23000,
+        "value" : 27000
+      } ],
+      "rating" : 4.5,
+      "thumb" : "https://res.cloudinary.com/ethion/image/upload/v1580344798/Kafas_Xpress_Gas_Cylinder_-2_syxwej.png",
+      "title" : "25kg Gas Cylinder"
+    },
+    "1d4aa3b29bca735e4ed15" : {
+      "available" : true,
+      "category" : "1d4aa3b29bca735e4et5",
+      "description" : "Order your 50kg Gas Cylinder and get it delivered directly to your door step.",
+      "extraOptions" : [ {
+        "name" : "Fill with Gas",
+        "selected" : false,
+        "value" : 18000
+      } ],
+      "noOfRating" : 70,
+      "offer" : true,
+      "offerPercentage" : 15,
+      "price" : [ {
+        "meta" : "Kafas Xpress Gas looks after your LPG so you don't have to,                 with everything tailored to make your gas deliveries simple and reliable,                 so you can sit back and relax knowing your supply is in expert hands.",
+        "name" : "50kg",
+        "pname" : "Gas Cylinder Only",
+        "specialPrice" : 50000,
+        "value" : 55000
+      }, {
+        "pname" : "Gas Cylinder with Pipe and Clip",
+        "specialPrice" : 53000,
+        "value" : 58000
+      } ],
+      "rating" : 4,
+      "thumb" : "https://res.cloudinary.com/ethion/image/upload/v1580344798/Kafas_Xpress_Gas_Cylinder_-2_syxwej.png",
+      "title" : "50kg Gas Cylinder"
+    }
+  },
+  "messages" : {
+    "TjVH7L4s4uNiY4Wz1UVYqStMqlX2" : {
+      "-M-VLwu8JlcnqTtvJ3zW" : {
+        "createdAt" : 1581090843108,
+        "message" : "hello",
+        "sendBy" : "User",
+        "userName" : "Jeffrey Aboh"
+      },
+      "-M-VNAHj0CDqeiXNghH4" : {
+        "createdAt" : 1581091164783,
+        "message" : "hello",
+        "sendBy" : "User",
+        "userName" : "Jeffrey Aboh"
+      },
+      "-M-X1PQhpu2C-x9qlVLb" : {
+        "createdAt" : 1581118883848,
+        "message" : "Hello mate",
+        "sendBy" : "User",
+        "userName" : "Jeffrey Aboh"
+      }
+    }
+  },
+  "metadata" : {
+    "app" : "kafas-xpress-gas",
+    "ver" : "0.0.1"
+  },
+  "news" : {
+    "-KzhhyAxShIizdnjSp_O" : {
+      "author" : "Jeffrey Aboh",
+      "category" : "Building a Mobile App",
+      "createdAt" : "1512038161572",
+      "description" : "“Going forward into the New Year, I see people going increasingly vegan and becoming health experts. There is growing interest and movement towards ​healthy food and beverages (good quality and not necessarily health food). Besides this, the New Year presents a big opportunity for regional specialities and a growing demand for floral flavours.”",
+      "shortDescription" : "The Brew and Barbeque invests Rs 6 crore to unveil outlet in Bengaluru.",
+      "thumb" : "http://res.cloudinary.com/pietechsolutions/image/upload/v1511521771/wgeiwdm9mbnu2ildw0ah.jpg",
+      "title" : "1. Healthy is the way to go - Ajay Khanna, CEO Food Courts, Kwals Hospitality"
+    }
+  },
+  "orders" : {
+    "-M-_cT7G9dXXUztXtFAe" : {
+      "appliedLoyaltyPoints" : false,
+      "cart" : [ {
+        "item" : {
+          "itemId" : "1d4aa3b29bca735e4ea12",
+          "itemQunatity" : 1,
+          "price" : {
+            "meta" : "Kafas Xpress Gas looks after your LPG so you don't have to,                 with everything tailored to make your gas deliveries simple and reliable,                 so you can sit back and relax knowing your supply is in expert hands.",
+            "name" : "12kg",
+            "pname" : "Gas Cylinder Only",
+            "specialPrice" : 10000,
+            "value" : 12000
+          },
+          "thumb" : "https://res.cloudinary.com/ethion/image/upload/v1580344798/Kafas_Xpress_Gas_Cylinder_-2_syxwej.png",
+          "title" : "12kg Gas Cylinder"
+        },
+        "itemTotalPrice" : 10000
+      } ],
+      "couponDiscount" : 0,
+      "createdAt" : 1581179206128,
+      "deductedPrice" : 0,
+      "grandTotal" : 10700,
+      "orderId" : 46118,
+      "orderView" : false,
+      "paymentStatus" : "Pending",
+      "paymentType" : "Paystack",
+      "shippingAddress" : {
+        "address" : "Iba New Site Lagos",
+        "area" : "Area 1",
+        "city" : "Abuja",
+        "mobileNo" : "09053448854",
+        "name" : "Jeffrey Aboh",
+        "pincode" : "900246"
+      },
+      "status" : "Pending",
+      "statusReading" : [ {
+        "time" : 1581179206128,
+        "title" : "Your order has been accepted. You will get notified the status here."
+      } ],
+      "subTotal" : 10000,
+      "tax" : 200,
+      "usedLoyaltyPoints" : 0,
+      "userDetails" : {
+        "email" : "Jeffreyaboh@gmail.com",
+        "mobileNo" : "09053448854",
+        "name" : "Jeffrey Aboh",
+        "userid" : "TjVH7L4s4uNiY4Wz1UVYqStMqlX2"
+      },
+      "userId" : "TjVH7L4s4uNiY4Wz1UVYqStMqlX2"
+    },
+    "-M-_dBn75AVdAAk_U6FF" : {
+      "appliedLoyaltyPoints" : false,
+      "cart" : [ {
+        "item" : {
+          "itemId" : "1d4aa3b29bca735e4ea12",
+          "itemQunatity" : 1,
+          "price" : {
+            "meta" : "Kafas Xpress Gas looks after your LPG so you don't have to,                 with everything tailored to make your gas deliveries simple and reliable,                 so you can sit back and relax knowing your supply is in expert hands.",
+            "name" : "12kg",
+            "pname" : "Gas Cylinder Only",
+            "specialPrice" : 10000,
+            "value" : 12000
+          },
+          "thumb" : "https://res.cloudinary.com/ethion/image/upload/v1580344798/Kafas_Xpress_Gas_Cylinder_-2_syxwej.png",
+          "title" : "12kg Gas Cylinder"
+        },
+        "itemTotalPrice" : 10000
+      } ],
+      "couponDiscount" : 0,
+      "createdAt" : 1581179397989,
+      "deductedPrice" : 0,
+      "grandTotal" : 10700,
+      "orderId" : 49390,
+      "orderView" : false,
+      "paymentStatus" : "Approved",
+      "paymentType" : "Paystack",
+      "shippingAddress" : {
+        "address" : "Iba New Site Lagos",
+        "area" : "Area 1",
+        "city" : "Abuja",
+        "mobileNo" : "09053448854",
+        "name" : "Jeffrey Aboh",
+        "pincode" : "900246"
+      },
+      "status" : "Pending",
+      "statusReading" : [ {
+        "time" : 1581179397990,
+        "title" : "Your order has been accepted. You will get notified the status here."
+      } ],
+      "subTotal" : 10000,
+      "tax" : 200,
+      "transactionStatus" : {
+        "message" : "Approved",
+        "reference" : "1581179398",
+        "status" : "success",
+        "trans" : "483485075",
+        "transaction" : "483485075",
+        "trxref" : "1581179398"
+      },
+      "usedLoyaltyPoints" : 0,
+      "userDetails" : {
+        "email" : "Jeffreyaboh@gmail.com",
+        "mobileNo" : "09053448854",
+        "name" : "Jeffrey Aboh",
+        "userid" : "TjVH7L4s4uNiY4Wz1UVYqStMqlX2"
+      },
+      "userId" : "TjVH7L4s4uNiY4Wz1UVYqStMqlX2"
+    },
+    "-M-_dUhDWSwM8yN5EitQ" : {
+      "appliedLoyaltyPoints" : false,
+      "cart" : [ {
+        "item" : {
+          "itemId" : "1d4aa3b29bca735e4ea12",
+          "itemQunatity" : 1,
+          "price" : {
+            "meta" : "Kafas Xpress Gas looks after your LPG so you don't have to,                 with everything tailored to make your gas deliveries simple and reliable,                 so you can sit back and relax knowing your supply is in expert hands.",
+            "name" : "12kg",
+            "pname" : "Gas Cylinder Only",
+            "specialPrice" : 10000,
+            "value" : 12000
+          },
+          "thumb" : "https://res.cloudinary.com/ethion/image/upload/v1580344798/Kafas_Xpress_Gas_Cylinder_-2_syxwej.png",
+          "title" : "12kg Gas Cylinder"
+        },
+        "itemTotalPrice" : 10000
+      } ],
+      "couponDiscount" : 0,
+      "createdAt" : 1581179475474,
+      "deductedPrice" : 0,
+      "grandTotal" : 10700,
+      "orderId" : 81007,
+      "orderView" : false,
+      "paymentStatus" : "Approved",
+      "paymentType" : "Paystack",
+      "shippingAddress" : {
+        "address" : "Iba New Site Lagos",
+        "area" : "Area 1",
+        "city" : "Abuja",
+        "mobileNo" : "09053448854",
+        "name" : "Jeffrey Aboh",
+        "pincode" : "900246"
+      },
+      "status" : "Pending",
+      "statusReading" : [ {
+        "time" : 1581179475474,
+        "title" : "Your order has been accepted. You will get notified the status here."
+      } ],
+      "subTotal" : 10000,
+      "tax" : 200,
+      "transactionStatus" : {
+        "message" : "Approved",
+        "reference" : "1581179475",
+        "status" : "success",
+        "trans" : "483486575",
+        "transaction" : "483486575",
+        "trxref" : "1581179475"
+      },
+      "usedLoyaltyPoints" : 0,
+      "userDetails" : {
+        "email" : "Jeffreyaboh@gmail.com",
+        "mobileNo" : "09053448854",
+        "name" : "Jeffrey Aboh",
+        "userid" : "TjVH7L4s4uNiY4Wz1UVYqStMqlX2"
+      },
+      "userId" : "TjVH7L4s4uNiY4Wz1UVYqStMqlX2"
+    }
+  },
+  "request" : {
+    "-M-VIL_N7JCR8W6xXHI6" : {
+      "email" : "jeffery@gmail.com",
+      "message" : "hello welcome",
+      "name" : "Jeff",
+      "userId" : "TjVH7L4s4uNiY4Wz1UVYqStMqlX2"
+    },
+    "-M-VKwMwXvGE1UXEKh7V" : {
+      "location" : "Abuja",
+      "message" : "i neeed a gas man",
+      "name" : "bella",
+      "phone" : "0184657855758",
+      "service" : "Gas fixing",
+      "userId" : "TjVH7L4s4uNiY4Wz1UVYqStMqlX2"
+    }
+  },
+  "settings" : {
+    "currency" : {
+      "currencyId" : "-LLd7h_Y3PsGYSB-ZBlH",
+      "currencyName" : "NGN",
+      "currencySymbol" : "₦"
+    },
+    "imageIcon" : "https://res.cloudinary.com/ethion/image/upload/v1580291955/app_icon_zbva7r.png",
+    "imageLogo" : "https://res.cloudinary.com/ethion/image/upload/v1580291974/kafas-logo_sbnwn3.png",
+    "taxes" : 500,
+    "totalTables" : "10",
+    "totalVat" : 2
+  },
+  "subscribe" : {
+    "-LBdnsxKutlUOUkE0ay7" : {
+      "subscribe" : "jefferyaboh@gmail.com"
+    }
+  },
+  "table-bookings" : {
+    "-M-VV5dMEsBSgRZv_kuu" : {
+      "csize" : " 10kg",
+      "date" : "2020-02-08",
+      "status" : "Pending",
+      "time" : "04:32",
+      "userID" : "TjVH7L4s4uNiY4Wz1UVYqStMqlX2"
+    }
+  },
+  "tags" : {
+    "-L73VxHffrOiS3SjeD9y" : {
+      "tags" : "Gas Cylinder"
+    },
+    "-LIEOmn0VbADkm-PJ3xR" : {
+      "tags" : "Gas Refill"
+    }
+  },
+  "users" : {
+    "0cMh7es1mrRCSCCbzqaPrJjJDJM2" : {
+      "address" : {
+        "-Lzq0wW3UvNJnZxZx0Yt" : {
+          "address" : "Suite 204 \nThe Capital Hub \n272 Ahmadu Bello Way\nMabushi, Abuja FCT",
+          "area" : "Mabushi ",
+          "city" : "Abuja ",
+          "mobileNo" : "09098099900",
+          "name" : "Admin Xpress Gas",
+          "pincode" : "900001"
+        }
+      },
+      "email" : "kafasxpressgas@gmail.com",
+      "mobileNo" : "09098099900",
+      "name" : "Admin Gas",
+      "role" : "User"
+    },
+    "HylOxQFMMvVqwYcbU4e1TjmmSBp2" : {
+      "email" : "ela4chtist@gmail.com",
+      "location" : "Abuja",
+      "mobileNo" : "09098646399",
+      "name" : "Nnamdi",
+      "role" : "User"
+    },
+    "QhfzghjJ4hOzER5YqZtVki3rRSW2" : {
+      "address" : {
+        "-Lzpzurb1__cCafbC4PF" : {
+          "address" : "Wuye Abuja Nigeria",
+          "area" : "Area 1 Junction",
+          "city" : "Abuja",
+          "mobileNo" : "09053448854",
+          "name" : "Aboh Jeffrey",
+          "pincode" : "900246"
+        }
+      },
+      "email" : "test@test.com",
+      "gender" : "Male",
+      "image" : "",
+      "location" : "John Chukwu Crescent Wuye, Abuja",
+      "mobileNo" : "09053448854",
+      "name" : "Jeff Aboh",
+      "role" : "User"
+    },
+    "TjVH7L4s4uNiY4Wz1UVYqStMqlX2" : {
+      "address" : {
+        "-M-1EGzd6ZE84ClqjnOA" : {
+          "address" : "Iba New Site Lagos",
+          "area" : "Area 1",
+          "city" : "Abuja",
+          "mobileNo" : "09053448854",
+          "name" : "Jeffrey Aboh",
+          "pincode" : "900246"
+        }
+      },
+      "createdAt" : 1580580673252,
+      "email" : "Jeffreyaboh@gmail.com",
+      "favourite" : {
+        "1d4aa3b29bca735e4ed15" : {
+          "description" : "Order your 50kg Gas Cylinder and get it delivered directly to your door step.",
+          "thumb" : "https://res.cloudinary.com/ethion/image/upload/v1580344798/Kafas_Xpress_Gas_Cylinder_-2_syxwej.png",
+          "title" : "50kg Gas Cylinder"
+        }
+      },
+      "gender" : "Male",
+      "image" : "",
+      "location" : "Barnawa Abuja, Nigeria Africa.",
+      "loyaltyPoints" : {
+        "-M-_dgBcFXFPat7jjbM3" : {
+          "points" : "50000"
+        }
+      },
+      "mobileNo" : "09053448854",
+      "name" : "Jeffrey Aboh",
+      "uid" : "TjVH7L4s4uNiY4Wz1UVYqStMqlX2"
+    },
+    "TxIrob4qgAOH08kPj2QuRw3eupt1" : {
+      "email" : "beely@gmail.com",
+      "location" : "abuja",
+      "mobileNo" : "020202",
+      "name" : "Bella Cruize",
+      "role" : "User",
+      "uid" : "TxIrob4qgAOH08kPj2QuRw3eupt1"
+    },
+    "i4gGsaGO2MgnUfuua8dN0KA8UDr2" : {
+      "address" : {
+        "-M-9l4WgnN7h-dSPtcia" : {
+          "address" : "Abuja ",
+          "area" : "Jahi ",
+          "city" : "Abuja",
+          "mobileNo" : "09098099900",
+          "name" : "Bolaji "
+        }
+      },
+      "email" : "b.owokunle@gmail.com",
+      "favourite" : {
+        "1d4aa3b29bca735e4ea12" : {
+          "description" : "Order your 12kg Gas Cylinder and get it delivered directly to your door step.",
+          "thumb" : "https://res.cloudinary.com/ethion/image/upload/v1580344798/Kafas_Xpress_Gas_Cylinder_-2_syxwej.png",
+          "title" : "12kg Gas Cylinder"
+        }
+      },
+      "gender" : "Male",
+      "image" : "",
+      "location" : "Abuja ",
+      "loyaltyPoints" : {
+        "-M-akWJvspyQsTEZWirG" : {
+          "points" : "50000"
+        }
+      },
+      "mobileNo" : "09098099900",
+      "name" : "BOLAJI Owokunle ",
+      "role" : "User"
+    },
+    "w4HabNAxJkhqKvIARthRLo1BFi63" : {
+      "email" : "pedroolaoluwa@gmail.com",
+      "favourite" : {
+        "1d4aa3b29bca735e4ea12" : {
+          "description" : "Order your 12kg Gas Cylinder and get it delivered directly to your door step.",
+          "thumb" : "https://res.cloudinary.com/ethion/image/upload/v1580344798/Kafas_Xpress_Gas_Cylinder_-2_syxwej.png",
+          "title" : "12kg Gas Cylinder"
+        }
+      },
+      "location" : "Abuja, Nigeria",
+      "mobileNo" : "08099541942",
+      "name" : "Olaoluwa Pedro",
+      "role" : "User"
+    },
+    "weQLu8jEPZhI2peECsYXeseMfm82" : {
+      "displayName" : "admin",
+      "email" : "kafasxpress@gmail.com",
+      "isAdmin" : false,
+      "isNewUser" : true,
+      "isOnline" : false,
+      "photoUrl" : "https://www.gravatar.com/avatar/4fba3dbb149c4a4a6643c33d3bdda234",
+      "providerId" : "password",
+      "uid" : "weQLu8jEPZhI2peECsYXeseMfm82"
+    }
+  }
+}

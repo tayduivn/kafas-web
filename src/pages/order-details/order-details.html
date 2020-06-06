@@ -1,0 +1,102 @@
+<ion-header>
+    <ion-navbar>
+        <ion-title>{{"Order Details" | translate}}</ion-title>
+        <ion-buttons end>
+            <button ion-button icon-only color="royal" (click)="navcart()">
+                <ion-icon name="cart"></ion-icon>
+                <ion-badge class="carts" item-right color="danger">{{noOfItems}}</ion-badge>
+            </button>
+        </ion-buttons>
+    </ion-navbar>
+</ion-header>
+
+<ion-content>
+   <img class="" src="{{od.thumb}}">  
+    <div class="card-title">{{od.ntitle}}</div>
+    <div class="details">
+        <hr>
+        <h4>{{"Order Details" | translate}}</h4>
+        <ion-row>
+            <ion-col col-5>
+                <span class="order-desc">{{"Order Id:" | translate}}</span>
+            </ion-col>
+            <ion-col>
+                <span class="data">{{orderkey}}</span>
+            </ion-col>
+        </ion-row>
+        <ion-row>
+            <ion-col col-5>
+                <span class="order-desc">{{"Quantity:" | translate}}</span>
+            </ion-col>
+            <ion-col>
+                <span class="data">{{od.nqty }}</span>
+            </ion-col>
+        </ion-row>
+    
+        <ion-row>
+        <ion-col col-5>
+            <span class="order-desc">Payment Type:</span>
+        </ion-col>
+        <ion-col>
+            <span class="data">{{od.paymentType }}</span>
+        </ion-col>
+    </ion-row>
+
+    <ion-row>
+        <ion-col col-5>
+            <span class="order-desc">Payment Status:</span>
+        </ion-col>
+        <ion-col>
+            <span class="data">{{od.paymentStatus }}</span>
+        </ion-col>
+    </ion-row>
+
+        <ion-row>
+            <ion-col col-5>
+                <span class="order-desc">{{"Amount:" | translate}} </span>
+            </ion-col>
+            <ion-col>
+                <ion-icon class="check" name="checkmark"></ion-icon>
+                &nbsp;
+                <span class="amount">₦{{od.grandTotal  | number:'.2-2'}}</span>
+            </ion-col>
+        </ion-row>
+        <div *ngIf="rev">
+            <ion-row>
+                <ion-col col-5 class="text">{{"Your Rating:" | translate}}</ion-col>
+                <ion-col>
+                    <span class="product-rating">
+                        <rating name="rating" id="rating" [(ngModel)]="rev.rating" readOnly="true"
+                            max="5" emptyStarIconName="star-outline" halfStarIconName="star-half" starIconName="star"
+                            nullable="false">
+
+                        </rating>
+                    </span>
+                </ion-col>
+            </ion-row>
+            <ion-row>
+                <ion-col col-5 class="text">{{"Your Review:" | translate}} </ion-col>
+                <ion-col>
+                    <span class="text">{{rev.comment}}</span>
+                </ion-col>
+            </ion-row>
+        </div>
+        <!-- <span class="pay" *ngIf="!orderDetails.cod">{{"through debit cart" | translate}}</span><span
+        class="pay" *ngIf="orderDetails.cod">{{"Cash on Delivery" | translate}}</span> -->
+        <!-- </p> -->
+    </div>
+    <!--rate button-->
+
+    <button full class="rating-Button" *ngIf="!rev"
+        (click)="rate(orderDetails.item.itemId)">
+        <ion-icon name="star-half"></ion-icon> &nbsp; {{"Rate Product" | translate}}
+    </button>
+<br>
+    <!--buy button-->
+
+    <button  icon-left full class="btn-add-to-cart" (click)="buyAgain(orderDetails.item.itemId)">
+        <ion-icon name="basket"></ion-icon> &nbsp; {{"Buy Again" | translate}}
+    </button>
+    <br>
+
+</ion-content>

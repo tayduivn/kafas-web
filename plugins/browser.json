@@ -1,0 +1,48 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "call-number": {
+      "PACKAGE_NAME": "com.kafasxpress.kafasgas"
+    },
+    "cordova-android-support-gradle-release": {
+      "PACKAGE_NAME": "com.kafasxpress.kafasgas"
+    },
+    "cordova-custom-config": {
+      "PACKAGE_NAME": "com.kafasxpress.kafasgas"
+    },
+    "cordova-plugin-camera": {
+      "PACKAGE_NAME": "com.kafasxpress.kafasgas"
+    },
+    "cordova-plugin-compat": {
+      "PACKAGE_NAME": "com.kafasxpress.kafasgas"
+    },
+    "cordova-plugin-datepicker": {
+      "PACKAGE_NAME": "com.kafasxpress.kafasgas"
+    },
+    "cordova-plugin-device": {
+      "PACKAGE_NAME": "com.kafasxpress.kafasgas"
+    },
+    "cordova-plugin-email": {
+      "PACKAGE_NAME": "com.kafasxpress.kafasgas"
+    },
+    "cordova-plugin-file": {
+      "PACKAGE_NAME": "com.kafasxpress.kafasgas"
+    },
+    "cordova-plugin-filechooser": {
+      "PACKAGE_NAME": "com.kafasxpress.kafasgas"
+    },
+    "cordova-plugin-filepath": {
+      "PACKAGE_NAME": "com.kafasxpress.kafasgas"
+    },
+    "cordova-plugin-geolocation": {
+      "PACKAGE_NAME": "com.kafasxpress.kafasgas"
+    }
+  },
+  "dependent_plugins": {}
+}

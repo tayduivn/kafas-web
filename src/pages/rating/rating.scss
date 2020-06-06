@@ -1,0 +1,44 @@
+page-rating {
+  .product-rating {
+    ul {
+      padding: 5px 10px;
+      text-align: center;
+
+      &.rating li {
+        padding: 1px !important;
+        background: none;
+        color: #ffb400;
+
+        ion-icon {
+          font-size: 20px;
+        }
+      }
+    }
+  }
+
+  ion-textarea {
+    border: 1px solid red;
+    border-radius: 10px;
+  }
+  ion-label {
+    margin-left: 12px;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: red;
+  }
+  .submit-button {
+    width: 80%;
+    border-radius: 5px;
+    height: 4.4rem;
+    font-size: 16px;
+  display: block;
+  margin: 0 auto;
+    background-color: $danger;
+    color: white;
+  }
+  h4{
+    font-size: 20px;
+    text-align: center;
+  }
+}

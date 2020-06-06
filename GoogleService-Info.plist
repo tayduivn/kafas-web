@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>892138487332-urbironj5c2m4jh4tjdt4rggq92vps77.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.892138487332-urbironj5c2m4jh4tjdt4rggq92vps77</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>892138487332-8thllr8b9mqcq5v4cvnso3emmqhi7vl3.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDnsgpCCAbdUyHSxAu8RDF18xHeJeSVg-4</string>
+	<key>GCM_SENDER_ID</key>
+	<string>892138487332</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.kafasxpress.kafasgas</string>
+	<key>PROJECT_ID</key>
+	<string>kafas-737c9</string>
+	<key>STORAGE_BUCKET</key>
+	<string>kafas-737c9.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:892138487332:ios:6f4786581b76a3f8ffa2b1</string>
+	<key>DATABASE_URL</key>
+	<string>https://kafas-737c9.firebaseio.com</string>
+</dict>
+</plist>

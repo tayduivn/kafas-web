@@ -1,0 +1,48 @@
+page-cs {
+    .contact {
+     // background: url("../assets/img/bg.jpg") no-repeat center;
+      background-size: cover;
+    }
+    .contact-head {
+    //  margin-top: 2em;
+      text-align: center;
+      color: black;
+      font-size: 16px;
+    }
+    .submit-btn {
+      width: 80%;
+      border-radius: 5px;
+      height: 4.4rem;
+      font-size: 16px;
+    display: block;
+    margin: 0 auto;
+      background-color: $danger;
+      color: white;
+    }
+    .item {
+      background-color: #e6e6fa;
+      width: 80%;
+      display: block;
+      margin: 0 auto;
+      border-radius: 5px;
+    }
+    .item.item-block .item-inner {
+      border-bottom: 0px;
+    }
+    .item-input .label {
+      color: $white;
+    }
+  
+    .size{
+  font-size: 16px;
+  color: grey !important; 
+    }
+
+    .beta {
+      background-color:   #f7f7f7;
+     
+  }
+  
+
+  }
+  

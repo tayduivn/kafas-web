@@ -1,0 +1,121 @@
+<ion-header>
+  <ion-navbar hideBackButton="true">
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <img class="social-iconic" src="assets/img/kw.png">
+<!--- <ion-title class="title">{{"Home" | translate}}  
+    </ion-title>  -->
+    <ion-buttons end>
+      <button ion-button icon-only color="royal" (click)="navcart()" class="header-btn-cart">
+        <ion-icon name="cart"></ion-icon>
+        <ion-badge class="carts" item-right color="danger">{{noOfItems}}</ion-badge>
+      </button>
+    </ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+
+ <ion-content >
+
+<ion-row>
+
+  <ion-col col-3>
+
+  </ion-col>
+
+  <ion-col col-6>
+    <br>
+    <br>
+    <br>
+    <ion-searchbar (click)="goToSearch()" placeholder="Search for a product">
+    </ion-searchbar>
+    <br>
+  </ion-col>
+
+  <ion-col col-3>
+
+  </ion-col>
+
+</ion-row>
+
+  <ion-grid class="grid">
+   <br>
+   
+    <ion-row class="categories">
+      <ion-col col-4 >
+        <ion-card (click)="navProductList()">
+          <br>
+        <img class="img" src="assets/img/gass.png">
+     <br>
+     <h2 class="papa"   text-center>Buy Gas</h2>
+     <br>
+      </ion-card>
+      </ion-col>
+      <ion-col col-4 >
+        <ion-card (click)="navCategory()">
+          <br>
+        <img class="img" src="assets/img/blender.png">
+      <br>
+      <h2 class="papa"   text-center>Gas Accessories</h2>
+      <br>
+      </ion-card>
+      </ion-col>
+
+       <ion-col col-4 >
+      <ion-card (click)="navRT()"> 
+        <br>
+      <img class="img" src="assets/img/rt.png">
+      <br>
+      <h2 class="papa" text-center>Request a Technician</h2>
+      <br>
+      </ion-card>
+      </ion-col>
+    
+    </ion-row>
+  </ion-grid>
+
+  <ion-grid class="grid">
+    <ion-row class="categories">
+      <ion-col col-4 >
+        <ion-card (click)="navWallet()">
+          <br>
+        <img class="img" src="assets/img/wallet.png">
+      <br>
+      <h2  class="papa"  text-center>Wallet</h2>
+      <br>
+      </ion-card>
+      </ion-col>
+      <ion-col col-4 >
+        <ion-card (click)="navCS()"> 
+          <br>
+        <img class="img" src="assets/img/cs.png">
+      <br>
+      <h2 class="papa" text-center>Consultancy Service</h2>
+      <br>
+      </ion-card>
+      </ion-col>
+
+       <ion-col col-4 >
+        <ion-card (click)="navContact()"> 
+          <br>
+        <img class="img" src="assets/img/conversation.png">
+      <br>
+      <h2 class="papa" text-center>Help</h2>
+      <br>
+      </ion-card>
+    </ion-col>
+    </ion-row>
+  </ion-grid>
+
+
+
+
+
+</ion-content>
+
+
+
+
+
+

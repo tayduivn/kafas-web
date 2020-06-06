@@ -1,0 +1,63 @@
+<ion-header>
+    <ion-navbar>
+        <ion-title>{{"Add Address" | translate}}</ion-title>
+        <ion-buttons end>
+            <button ion-button icon-only color="royal" (click)="addressMenu()" class="header-btn-cart">
+                <ion-icon name="list"></ion-icon>
+                <ion-badge class="carts" item-right color="danger">{{noOfItems}}</ion-badge>
+            </button>
+        </ion-buttons>
+    </ion-navbar>
+</ion-header>
+
+
+
+
+<ion-content class="amount-block">
+
+    <ion-list class="adress-line ">
+        <form (ngSubmit)="addAddress(f)" #f="ngForm">
+            <ion-label class="add-heading">
+                <ion-icon ios="ios-contact" md="md-contact"></ion-icon>
+                &nbsp;&nbsp; {{"Add Contact Information" | translate}}
+            </ion-label>
+            <ion-row class="full-address">
+                <ion-item class="label">
+                    <ion-input type="text" placeholder="{{'Contact Name' | translate}}" name="name" id="name" [(ngModel)]="address.name" required></ion-input>
+                </ion-item>
+                <ion-item class="label">
+                    <ion-input type="number" name="mobileNo" id="mobileNo" [(ngModel)]="address.mobileNo" placeholder="{{'Mobile' | translate}}" required></ion-input>
+                </ion-item>
+             
+                <ion-label class="adhd">
+                <ion-icon ios="ios-home" md="md-home"></ion-icon>
+                &nbsp;&nbsp; {{"Add Address" | translate}}
+            </ion-label>
+                
+               
+                <ion-item class="label address-textarea">
+                    <ion-textarea rows="6" placeholder="{{'Full Address' | translate}}" name="address" id="address" [(ngModel)]="address.address"
+                        required></ion-textarea>
+                </ion-item>
+
+                <ion-item class="label">
+                    <ion-input type="text" name="area" id="area" placeholder="{{'Area / Locality' | translate}}" [(ngModel)]="address.area"></ion-input>
+                </ion-item>
+
+                <ion-item class="label">
+                    <ion-input type="text" placeholder="{{'City / State' | translate}}" name="city" id="city" [(ngModel)]="address.city" required></ion-input>
+                </ion-item>
+                <ion-item class="label">
+                    <ion-input type="number" placeholder="{{'Postal Code' | translate}}" name="pincode" id="pincode" [(ngModel)]="address.pincode"
+                        required></ion-input>
+                    </ion-item>
+
+            </ion-row>
+            <button class="checkOut-btn"  block type="submit">
+                <ion-icon class="addbt" ios="ios-add" md="md-add"></ion-icon>
+                &nbsp;&nbsp;<span class="addbt">{{"Add Address" | translate}}
+                </span>
+                </button>
+        </form>
+    </ion-list>
+</ion-content>

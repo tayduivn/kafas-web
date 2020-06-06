@@ -1,0 +1,98 @@
+page-add-address {
+  .content {
+   // background-image: url(../assets/img/address-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .full-address {
+ //   background-color: rgba(0, 0, 0, 0.2);
+    padding: 0 2rem;
+    
+    .label {
+      color: $black;
+      font-size: 16px;
+    }
+  }
+  .list .item-block .item-inner {
+    border: 0 !important;
+  }
+  .add-heading {
+    color: $black;
+    text-align: center;
+    margin: 1.5em 0;
+    font-size: 20px !important;
+  }
+
+  .list .item-input:last-child {
+    border-bottom: 1px solid;
+    border-color: rgba(255, 255, 255, 0.05);
+  }
+
+  .date-label {
+    color: $black !important;
+  }
+
+  .no-padd {
+    padding: 0px;
+  }
+
+  .item {
+    border-radius: 8px;
+    margin-bottom: 2rem;
+  }
+  .city {
+    padding-left: 22px;
+  }
+  .address-textarea {
+    height: auto !important;
+  }
+  .payment-block {
+    margin-bottom: 0px;
+  }
+  .list {
+    width: 100%;
+  }
+  .button {
+    height: 44px;
+    font-size: 16px;
+    border-radius: 5px;
+    background-color: $danger;
+    width: 80%;
+    display: block;
+    margin: 1em auto;
+  }
+
+  .amount-block {
+    background-color: $light;
+    margin: 0 0 1em 0;
+    font-size: 16px;
+    .loyality-check {
+      .label {
+        color: $grey;
+        font-size: 16px;
+      }
+    }
+}
+
+.adhd {
+  color: $black;
+  text-align: center;
+  font-size: 20px !important; 
+}
+.addbt {
+  background-color: $danger !important;
+  font-size: 16px;
+}
+
+.checkOut-btn{
+  width: 80%;
+  border-radius: 5px;
+  height: 4.4rem;
+  font-size: 16px;
+display: block;
+margin: 0 auto;
+  background-color: $danger;
+  color: white;
+}
+}

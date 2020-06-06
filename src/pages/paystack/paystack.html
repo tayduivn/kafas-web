@@ -1,0 +1,109 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+     Paystack
+    </ion-title>
+    <ion-buttons end>
+      <button ion-button icon-only color="royal" (click)="addressMenu()" class="header-btn-cart">
+          <ion-icon name="list"></ion-icon> 
+      </button>
+  </ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+
+<ion-row class="center2">
+     <ion-col  col-10 col-xl-8 col-lg-8 col-md-10>
+
+<br>
+<br>
+<br>
+<br>
+<br>
+<h2 text-center>You are about to pay the sum of ₦{{chargeAmount | number:'.2-2'}}</h2>
+<br>
+<br>
+<br>
+  <form [formGroup]="formPay" name="formPay">
+ <!-----   <ion-item>
+      <ion-label stacked>
+        <ion-icon name="person" item-start></ion-icon>
+        Full Name
+      </ion-label>
+      <ion-input type="text" formControlName="fullname" [(ngModel)]="fullname"></ion-input>
+  </ion-item>   -->
+
+  <ion-row> <ion-col col-3>
+      </ion-col>
+
+      <ion-col col-6>
+
+        <ion-item>
+            <ion-label><ion-icon color="danger" name="mail"></ion-icon></ion-label>
+            <ion-input type="email" formControlName="email" placeholder="Enter your email address" [(ngModel)]="email"></ion-input>
+        </ion-item>
+    </ion-col>
+
+    <ion-col col-3>
+</ion-col>
+
+</ion-row>
+
+ <!-----   <ion-item>
+      <ion-label stacked>
+        <ion-icon name="call" item-start></ion-icon>
+        Phone
+      </ion-label>
+      <ion-input type="number" formControlName="phone"></ion-input>
+  </ion-item>  -->
+
+ <!-----   <ion-item>
+        <ion-label stacked>
+          <ion-icon name="card" item-start></ion-icon>
+          {{chargeAmount}}
+        </ion-label>
+        <ion-input type="number" formControlName="amount"  [(ngModel)]="chargeAmount"></ion-input>
+    </ion-item>   -->
+    
+    <br>
+
+    <ion-row>
+      <ion-col col-3>
+      </ion-col>
+
+      <ion-col col-6>
+
+    <angular4-paystack [key]="public_key" [email]="email" [amount]="chargeAmount * 100" [ref]="random_id" [channels]="channels" (close)="paymentCancel()" (callback)="paymentDone($event)" [class]="'bbysl'">
+          <button class="bbysl" tappable style="width:100%"><ion-icon name="card"></ion-icon> Pay</button>
+    </angular4-paystack>
+        
+  </ion-col>
+
+<ion-col col-3>
+</ion-col>
+
+</ion-row>
+
+</form>
+
+<div class="footer">
+
+  <div class="secured">
+  
+  <ion-icon name="lock" item-start></ion-icon>
+  
+  SECURED BY PAYSTACK
+  
+  </div>
+  
+  </div>
+
+</ion-col>
+
+
+</ion-row>
+
+</ion-content>
+
+

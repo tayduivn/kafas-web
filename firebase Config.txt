@@ -1,0 +1,10 @@
+var firebaseConfig = {
+    apiKey: "AIzaSyD3c43kcnZrA9C3kGQoDQMxTyyW3tTAZtE",
+    authDomain: "kafas-737c9.firebaseapp.com",
+    databaseURL: "https://kafas-737c9.firebaseio.com",
+    projectId: "kafas-737c9",
+    storageBucket: "kafas-737c9.appspot.com",
+    messagingSenderId: "892138487332",
+    appId: "1:892138487332:web:b888c865c705f346ffa2b1",
+    measurementId: "G-N5Z45SE3B0"
+  };

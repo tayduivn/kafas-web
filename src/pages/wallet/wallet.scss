@@ -1,0 +1,36 @@
+.bwal {
+    width: 100%;
+    border-radius: 5px;
+    height: 4.4rem;
+    font-size: 16px;
+  display: block;
+  margin: 0 auto;
+    background-color: $danger;
+    color: white;
+  }
+  .bal {
+      color: red;
+  }
+  .lab {
+    font-size: 16px;
+  }
+  .labb{
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+  .empty-list{
+    //  opacity: 0.8;
+      margin-top: 30%;
+      text-align: center;
+      ion-icon{
+        color: $danger;
+        font-size: 150px;
+      }
+      h4{
+        color: $grey;
+        margin-top: 10px;
+      //  font-weight: 700;
+        font-size: 20px;
+      }
+    }

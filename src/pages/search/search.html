@@ -1,0 +1,79 @@
+<ion-header>
+    <ion-navbar>
+        <ion-title class="title">{{"Create Order" | translate}}</ion-title>
+        <ion-buttons end>
+            <button ion-button icon-only color="royal" (click)="navcart()" class="header-btn-cart">
+                <ion-icon name="cart"></ion-icon>
+                <ion-badge class="carts" item-right color="danger">{{noOfItems}}</ion-badge>
+            </button>
+        </ion-buttons>
+    </ion-navbar>
+</ion-header>
+
+<ion-content>
+    <ion-row>
+        <ion-col col-3>
+        </ion-col>
+
+        <ion-col col-6>
+            <br>
+            <br>
+    <ion-searchbar (ionInput)="getItems($event)" placeholder="{{'Search products' | translate}}">
+    </ion-searchbar>
+    <br>
+    <br>
+</ion-col>
+
+<ion-col col-3>
+    </ion-col>
+</ion-row>
+
+    <ion-list *ngFor="let item of items ; let i=index ">
+        <!-- list -->
+        <ion-item text-wrap (click)="navigate(item.$key)">
+            <!-- item -->
+            <ion-row class="catagory">
+                <!-- row -->
+              
+                <ion-col col-3>
+                    <!-- col with 50  width -->
+                    <img src="{{item.thumb}}" alt="foodname" />
+                </ion-col>
+                <ion-col col-4>
+                    <!-- col with 50% width -->
+                    <p class="item-name">{{item.title}}</p>
+                    <p class="item-detail" text-wrap>
+                        <span>{{item.description | limitPipe:150}}</span>
+                    </p>
+                    <p class="item-detail">{{"Price :" | translate}}
+                        <span class="item-price">₦ {{item.value | number:'.2-2'}}
+                        </span>
+                    </p>
+                    <br>
+                 <!----   <p>Proceed ➤</p>  -->
+              <!----      <p class="product-rating">
+                        <rating name="rating" id="rating" [(ngModel)]="item.rating" readOnly="true" max="5" emptyStarIconName="star-outline"
+                            halfStarIconName="star-half" starIconName="star" nullable="false">
+                        </rating>
+                    </p>  --->
+                </ion-col>
+                 <ion-col col-2>
+                </ion-col>
+                <ion-col col-3>
+                    <br>
+                     <button class="login-btn" type="submit" >View Details
+                </button>
+                </ion-col>
+            </ion-row>
+            <!--end row -->
+        </ion-item>
+        <!-- item -->
+    </ion-list>
+
+    <br>
+    <br>
+    <br>
+    <h2 text-center *ngIf="items?.length == 0">No Products are available at this time, Please try again later!</h2>
+
+
+</ion-content>

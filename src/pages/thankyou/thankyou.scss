@@ -1,0 +1,51 @@
+page-thankyou {
+  .page-content {
+    background-color: $white !important;
+    .thanks {
+      text-align: center;
+      margin: 0 auto;
+      height: 50%;
+      width: 50%;
+
+      h2 {
+        margin-top: 0%;
+        font-size: 30px;
+        font-weight: 600;
+      }
+      p {
+        line-height: 2.5rem;
+        font-weight: 500;
+        font-size: 16px;
+      }
+    }
+    .continue-btn {
+      width: 80%;
+      border-radius: 5px;
+      height: 4.4rem;
+      font-size: 16px;
+    display: block;
+    margin: 0 auto;
+      background-color: $danger;
+      color: white;
+    }
+    .continue-btnn {
+      width: 60%;
+    border-radius: 5px;
+    border-color: red;
+    height: 4.4rem;
+    font-size: 16px;
+  display: block;
+  margin: 0 auto;
+   // background-color: $danger;
+    color:red
+    }
+  }
+
+  .imgg {
+    font-size: 400px;
+  }
+
+  .sizer {
+     font-size: 10px;
+  }
+}

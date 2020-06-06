@@ -1,0 +1,402 @@
+{
+  "address" : {
+    "2xkz7PQJU1Vfu6JYIYbHlSaq8mg1" : {
+      "email" : "jeffreyaboh@gmail.com",
+      "firstName" : "Jeffrey",
+      "lastName" : "Aboh",
+      "location" : "wuye",
+      "mobileNo" : "09053448854",
+      "name" : "JeffreyAboh",
+      "uid" : "2xkz7PQJU1Vfu6JYIYbHlSaq8mg1",
+      "userId" : "2xkz7PQJU1Vfu6JYIYbHlSaq8mg1"
+    },
+    "B9Tc41X6aSdeIOFvBc5IhgxYBCS2" : {
+      "email" : "lateefahabdulwasiu@rocketmail.com",
+      "location" : "Lagos",
+      "mobileNo" : "08139233232",
+      "name" : "Tee tee"
+    },
+    "Exf2gpIBP0YOo7QNWesC06ylqng1" : {
+      "email" : "jeffreyaboh@gmail.com",
+      "firstName" : "Jeffrey",
+      "lastName" : "Aboh",
+      "location" : "Wuye Abuja",
+      "mobileNo" : "09053448854",
+      "name" : "JeffreyAboh",
+      "uid" : "Exf2gpIBP0YOo7QNWesC06ylqng1"
+    },
+    "GaAXqssf6La1QX2KyFhUHFlE2O02" : {
+      "email" : "gbmilla@gmail.com",
+      "location" : "Ibadan",
+      "mobileNo" : "08068150698",
+      "name" : "fawale gbolahan"
+    },
+    "J3avp4u9ymZ6requkrbT82sgEfC3" : {
+      "email" : "jefferyaboh@gmail.com",
+      "location" : "Abuja Nigeria",
+      "mobileNo" : "09053448854",
+      "name" : "Jeffery Aboh",
+      "userId" : "J3avp4u9ymZ6requkrbT82sgEfC3"
+    },
+    "Ke9UoM0yjdcb9Hej9c2wS0nFqAp2" : {
+      "email" : "test@test.com",
+      "firstName" : "Test",
+      "lastName" : "User",
+      "location" : "Abuja",
+      "mobileNo" : "",
+      "name" : "TestUser",
+      "uid" : "Ke9UoM0yjdcb9Hej9c2wS0nFqAp2"
+    },
+    "TjVH7L4s4uNiY4Wz1UVYqStMqlX2" : {
+      "email" : "Jeffreyaboh@gmail.com",
+      "location" : "Abuja",
+      "mobileNo" : "09053448854",
+      "name" : "Jeffrey Aboh"
+    },
+    "W2e6KZCKxFNmusTzRpahvTLPEDI2" : {
+      "email" : "jeffreyaboh@gmail.com",
+      "firstName" : "Jeffrey",
+      "lastName" : "Aboh",
+      "location" : "Wuye, Abuja",
+      "mobileNo" : "09053448854",
+      "name" : "JeffreyAboh",
+      "uid" : "W2e6KZCKxFNmusTzRpahvTLPEDI2"
+    },
+    "guV2YEV14CO3OlKULp4yvhOk3Bx2" : {
+      "email" : "nasearue@yahoo.co.uk",
+      "location" : "Lagos",
+      "mobileNo" : "",
+      "name" : "Nas"
+    },
+    "i4gGsaGO2MgnUfuua8dN0KA8UDr2" : {
+      "email" : "b.owokunle@gmail.com",
+      "location" : "Abuja ",
+      "mobileNo" : "09098099900",
+      "name" : "BOLAJI Owokunle "
+    },
+    "uivKERluGQZ6jYCiP3Z9qYRyMtQ2" : {
+      "email" : "jefferyaboh@gmail.com",
+      "location" : "Wuye Abuja NGN",
+      "mobileNo" : "08130308330",
+      "name" : "Jeffery Aboh"
+    },
+    "w4HabNAxJkhqKvIARthRLo1BFi63" : {
+      "email" : "pedroolaoluwa@gmail.com",
+      "location" : "Abuja, Nigeria",
+      "mobileNo" : "08099541942",
+      "name" : "Olaoluwa Pedro"
+    },
+    "zr8Dlka96qbzm4YP8nB3XZQoPDD2" : {
+      "email" : "alkakafas1@gmail.com",
+      "firstName" : "Alkasim ",
+      "lastName" : "Suleman ",
+      "location" : "Abuja ",
+      "mobileNo" : "08093588553",
+      "name" : "Alkasim Suleman ",
+      "uid" : "zr8Dlka96qbzm4YP8nB3XZQoPDD2"
+    }
+  },
+  "admins" : {
+    "weQLu8jEPZhI2peECsYXeseMfm82" : true
+  },
+  "business" : {
+    "address" : "Capital Hub, Plot 272, Banex/Gwarimpa Expressway, Mabushi, Abuja.",
+    "description" : "Kafas Xpress Gas is a retail distributor of clean, super quality, and efficient Liquid Petroleum Gas. We provide clients with smart gas cylinders that monitors in real time the level of gas in the cylinders",
+    "email" : "info@kafasxpressgas.com",
+    "facebookLink" : "https://kafasxpressgas.com",
+    "officeLocation" : "https://kafasxpressgas.com",
+    "phoneNo" : "(+234) 809-358-8553",
+    "storeName" : "Kafas Xpress Gas",
+    "twitterLink" : "https://kafasxpressgas.com"
+  },
+  "categories" : {
+    "-M-kMQ4XqNM5j7sHJ7Sa" : {
+      "createdAt" : 1581359411554,
+      "description" : "",
+      "id" : "-M-kMQ4XqNM5j7sHJ7Sa",
+      "thumb" : "https://res.cloudinary.com/ethion/image/upload/v1579913576/Kafas-Xpress-Gas-Cylinder-_x0x89t.jpg",
+      "title" : "Buy Gas Cylinder"
+    },
+    "-M-kMiPzNTtAV3QGxKzK" : {
+      "createdAt" : 1581359490751,
+      "description" : "",
+      "id" : "-M-kMiPzNTtAV3QGxKzK",
+      "thumb" : "https://res.cloudinary.com/ethion/image/upload/v1580029218/a97c5300f5e6f8db.jpg_numo2q.jpg",
+      "title" : "Spare Parts"
+    }
+  },
+  "coming" : {
+    "1d4aa3b29bca735e4et010" : {
+      "thumb" : "http://res.cloudinary.com/ionicfirebaseapp/image/upload/c_scale,h_540,w_800/v1483635624/shutterstock_114177826_mm6tnl.jpg"
+    },
+    "1d4aa3b29bca735e4et50" : {
+      "thumb" : "http://res.cloudinary.com/ionicfirebaseapp/image/upload/c_scale,h_540,w_800/v1483635648/shutterstock_93878743_rugqzs.jpg"
+    },
+    "1d4aa3b29bca735e4et90" : {
+      "thumb" : "http://res.cloudinary.com/ionicfirebaseapp/image/upload/c_scale,h_540,w_800/v1483635589/shutterstock_56500270_j3dvz7.jpg"
+    }
+  },
+  "contact" : {
+    "-LN71QZc6f1_LPc6oqG5" : {
+      "email" : "asdasd@asdasd.asd",
+      "message" : "asdasdaaaaaaaaaaaaaaaaadasdasd",
+      "name" : "asdasd asd",
+      "userId" : "eIPPmSw4pNOIHkIPz3DgKaVI3Gj1"
+    },
+    "-M-1Al5SkqqxH8NA7YW_" : {
+      "email" : "jefferyaboh@gmail.com",
+      "message" : "Baba lawo bounce on you",
+      "name" : "Adasa",
+      "userId" : "TjVH7L4s4uNiY4Wz1UVYqStMqlX2"
+    },
+    "-M-VEyllkWBTe4Jmz7Rv" : {
+      "email" : "jefferyaboh@gmail.com",
+      "message" : "for pf",
+      "name" : "jeffrey aboh",
+      "userId" : "TjVH7L4s4uNiY4Wz1UVYqStMqlX2"
+    },
+    "-M-VFTSr9LY7OJIxLghv" : {
+      "email" : "t@t.com",
+      "message" : "bella naija",
+      "name" : "jeff",
+      "userId" : "TjVH7L4s4uNiY4Wz1UVYqStMqlX2"
+    }
+  },
+  "coupons" : {
+    "GFgsjkjFhjjgsjhhGVS" : {
+      "date" : 16673478232,
+      "name" : "No Coupons Available!",
+      "value" : 0
+    }
+  },
+  "currency" : {
+    "-LLd7h_Y3PsGYSB-ZBlH" : {
+      "currencyName" : "NGN",
+      "currencySign" : {
+        "symbol" : "₦"
+      }
+    },
+    "-LN72RCWYLs-wZVBPVmp" : {
+      "currencyName" : "NGN",
+      "currencySign" : {
+        "symbol" : "₦"
+      }
+    }
+  },
+  "delivery-options" : {
+    "-LK_kREcILq7tmGSMdGk" : {
+      "pincode" : 12333
+    }
+  },
+  "loyalitys" : {
+    "enable" : true,
+    "loylityPercentage" : 10,
+    "minLoyalityPointes" : "500"
+  },
+  "menuItems" : {
+    "1d4aa3b29bca735e4ea12" : {
+      "available" : true,
+      "category" : "-M-kMQ4XqNM5j7sHJ7Sa",
+      "createdAt" : 1581359513540,
+      "description" : "Order your 12kg Gas Cylinder and get it delivered directly to your door step.",
+      "exvalue" : 4500,
+      "meta" : "Kafas Xpress Gas looks after your LPG so you don't have to,                 with everything tailored to make your gas deliveries simple and reliable,                 so you can sit back and relax knowing your supply is in expert hands.",
+      "name" : "12kg",
+      "noOfRating" : 6,
+      "offer" : true,
+      "offerPercentage" : 7,
+      "pname" : "Gas Cylinder Only",
+      "rating" : 4.5,
+      "specialPrice" : 10000,
+      "thumb" : "https://res.cloudinary.com/ethion/image/upload/v1580344798/Kafas_Xpress_Gas_Cylinder_-2_syxwej.png",
+      "title" : "12.5kg Gas Cylinder Only",
+      "value" : 12000,
+      "xname" : "Fill with Gas",
+      "xpname" : "Gas Cylinder with Pipe & Clip",
+      "xselected" : false,
+      "xspecialPrice" : 13000,
+      "xvalue" : 15000
+    },
+    "1d4aa3b29bca735e4ebc14" : {
+      "available" : true,
+      "category" : "-M-kMQ4XqNM5j7sHJ7Sa",
+      "createdAt" : 1581360487603,
+      "description" : "Order your 12kg Gas Cylinder filled with Gas and get it delivered directly to your door step.",
+      "exvalue" : 9000,
+      "meta" : "Kafas Xpress Gas looks after your LPG so you don't have to,                 with everything tailored to make your gas deliveries simple and reliable,                 so you can sit back and relax knowing your supply is in expert hands.",
+      "name" : "12kg",
+      "noOfRating" : 117,
+      "offer" : false,
+      "offerPercentage" : 0,
+      "pname" : "Gas Cylinder with Gas",
+      "rating" : 4.5,
+      "specialPrice" : 20000,
+      "thumb" : "https://res.cloudinary.com/ethion/image/upload/v1580344798/Kafas_Xpress_Gas_Cylinder_-2_syxwej.png",
+      "title" : "25kg Gas Cylinder with Gas",
+      "value" : 24000,
+      "xname" : "Fill with Gas",
+      "xpname" : "Gas Cylinder with Pipe & Clip",
+      "xselected" : "false",
+      "xspecialPrice" : 23000,
+      "xvalue" : 27000
+    },
+    "1d4aa3b29bca735e4ed15" : {
+      "available" : true,
+      "category" : "-M-kMQ4XqNM5j7sHJ7Sa",
+      "createdAt" : 1581360697450,
+      "description" : "Order your 50kg Gas Cylinder and get it delivered directly to your door step.",
+      "exvalue" : 4500,
+      "meta" : "Kafas Xpress Gas looks after your LPG so you don't have to,                 with everything tailored to make your gas deliveries simple and reliable,                 so you can sit back and relax knowing your supply is in expert hands.",
+      "name" : "50kg",
+      "noOfRating" : 70,
+      "offer" : true,
+      "offerPercentage" : 15,
+      "pname" : "Gas Cylinder Only",
+      "rating" : 4,
+      "specialPrice" : 50000,
+      "thumb" : "https://res.cloudinary.com/ethion/image/upload/v1580344798/Kafas_Xpress_Gas_Cylinder_-2_syxwej.png",
+      "title" : "50kg Gas Cylinder Only",
+      "value" : 55000,
+      "xname" : "Fill with Gas",
+      "xpname" : "Gas Cylinder with Pipe & Clip",
+      "xselected" : "false",
+      "xspecialPrice" : 13000,
+      "xvalue" : 15000
+    }
+  },
+  "messages" : {
+    "TjVH7L4s4uNiY4Wz1UVYqStMqlX2" : {
+      "-M-VLwu8JlcnqTtvJ3zW" : {
+        "createdAt" : 1581090843108,
+        "message" : "hello",
+        "sendBy" : "User",
+        "userName" : "Jeffrey Aboh"
+      },
+      "-M-VNAHj0CDqeiXNghH4" : {
+        "createdAt" : 1581091164783,
+        "message" : "hello",
+        "sendBy" : "User",
+        "userName" : "Jeffrey Aboh"
+      },
+      "-M-X1PQhpu2C-x9qlVLb" : {
+        "createdAt" : 1581118883848,
+        "message" : "Hello mate",
+        "sendBy" : "User",
+        "userName" : "Jeffrey Aboh"
+      }
+    }
+  },
+  "metadata" : {
+    "app" : "kafas-xpress-gas",
+    "ver" : "0.0.1"
+  },
+  "news" : {
+    "-KzhhyAxShIizdnjSp_O" : {
+      "author" : "Jeffrey Aboh",
+      "category" : "Building a Mobile App",
+      "createdAt" : "1512038161572",
+      "description" : "“Going forward into the New Year, I see people going increasingly vegan and becoming health experts. There is growing interest and movement towards ​healthy food and beverages (good quality and not necessarily health food). Besides this, the New Year presents a big opportunity for regional specialities and a growing demand for floral flavours.”",
+      "shortDescription" : "The Brew and Barbeque invests Rs 6 crore to unveil outlet in Bengaluru.",
+      "thumb" : "http://res.cloudinary.com/pietechsolutions/image/upload/v1511521771/wgeiwdm9mbnu2ildw0ah.jpg",
+      "title" : "1. Healthy is the way to go - Ajay Khanna, CEO Food Courts, Kwals Hospitality"
+    }
+  },
+  "request" : {
+    "-M-VIL_N7JCR8W6xXHI6" : {
+      "email" : "jeffery@gmail.com",
+      "message" : "hello welcome",
+      "name" : "Jeff",
+      "userId" : "TjVH7L4s4uNiY4Wz1UVYqStMqlX2"
+    },
+    "-M-VKwMwXvGE1UXEKh7V" : {
+      "location" : "Abuja",
+      "message" : "i neeed a gas man",
+      "name" : "bella",
+      "phone" : "0184657855758",
+      "service" : "Gas fixing",
+      "userId" : "TjVH7L4s4uNiY4Wz1UVYqStMqlX2"
+    }
+  },
+  "reviews" : {
+    "TjVH7L4s4uNiY4Wz1UVYqStMqlX2" : {
+      "comment" : "Very Poor",
+      "orderId" : "-M0-tRzFz3SXP7bIvKkg",
+      "rating" : 1,
+      "userId" : "TjVH7L4s4uNiY4Wz1UVYqStMqlX2"
+    },
+    "i4gGsaGO2MgnUfuua8dN0KA8UDr2" : {
+      "comment" : "Very cost effective",
+      "orderId" : "-M039nc7Ia7yp5z6TTt7",
+      "rating" : 5,
+      "userId" : "i4gGsaGO2MgnUfuua8dN0KA8UDr2"
+    }
+  },
+  "settings" : {
+    "currency" : {
+      "currencyId" : "-LLd7h_Y3PsGYSB-ZBlH",
+      "currencyName" : "NGN",
+      "currencySymbol" : "₦"
+    },
+    "imageIcon" : "https://res.cloudinary.com/ethion/image/upload/v1580291955/app_icon_zbva7r.png",
+    "imageLogo" : "https://res.cloudinary.com/ethion/image/upload/v1580291974/kafas-logo_sbnwn3.png",
+    "taxes" : 500,
+    "totalTables" : "10",
+    "totalVat" : 5
+  },
+  "subscribe" : {
+    "-LBdnsxKutlUOUkE0ay7" : {
+      "subscribe" : "jefferyaboh@gmail.com"
+    }
+  },
+  "table-bookings" : {
+    "-M-VV5dMEsBSgRZv_kuu" : {
+      "csize" : " 10kg",
+      "date" : "2020-02-08",
+      "status" : "Pending",
+      "time" : "04:32",
+      "userID" : "TjVH7L4s4uNiY4Wz1UVYqStMqlX2"
+    },
+    "-M07qZhypvTiGWJ0zgW5" : {
+      "csize" : " undefined",
+      "date" : "2020-02-15",
+      "status" : "Pending",
+      "time" : "16:30",
+      "userID" : "i4gGsaGO2MgnUfuua8dN0KA8UDr2"
+    }
+  },
+  "tags" : {
+    "-L73VxHffrOiS3SjeD9y" : {
+      "tags" : "Gas Cylinder"
+    },
+    "-LIEOmn0VbADkm-PJ3xR" : {
+      "tags" : "Gas Refill"
+    }
+  },
+  "tempOrderName" : {
+    "TjVH7L4s4uNiY4Wz1UVYqStMqlX2" : {
+      "title" : "25kg Gas Cylinder"
+    }
+  },
+  "users" : {
+    "2xkz7PQJU1Vfu6JYIYbHlSaq8mg1" : {
+      "email" : "jeffreyaboh@gmail.com",
+      "firstName" : "Jeffrey",
+      "gender" : "Male",
+      "lastName" : "Aboh",
+      "location" : "wuye",
+      "loyaltyPoints" : {
+        "-M1re9LShwAcvquNNkkg" : {
+          "createdAt" : 1583629247526,
+          "credit" : "Credit",
+          "message" : "Approved",
+          "points" : "500",
+          "trxref" : "1583629216"
+        }
+      },
+      "mobileNo" : "09053448854",
+      "name" : "Jeffrey Aboh",
+      "role" : "User",
+      "uid" : "2xkz7PQJU1Vfu6JYIYbHlSaq8mg1"
+    }
+  }
+}

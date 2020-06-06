@@ -1,0 +1,44 @@
+<ion-header>
+    <ion-navbar hideBackButton="true">
+        <button ion-button menuToggle>
+            <ion-icon name="menu"></ion-icon>
+        </button>
+        <ion-title class="title" text-center>{{"Thank you" | translate}}
+        </ion-title>
+        <ion-buttons end>
+            <button ion-button icon-only color="royal" (click)="contact()" class="header-btn-cart">
+                <ion-icon name="call"></ion-icon>
+            </button>
+        </ion-buttons>
+    </ion-navbar>
+</ion-header>
+
+<ion-content class="page-content">
+  <ion-row class="center2">
+     <ion-col  col-10 col-xl-8 col-lg-8 col-md-10>
+            <div class="thanks">
+                <img src="assets/img/success.gif">
+            </div>
+                <h2 text-center>{{"Order Received!" | translate}}</h2>
+                <p text-center>{{"You have successfully completed your payment." | translate}}
+                </p>
+    <ion-row>
+        <ion-col col-2>
+        </ion-col>
+
+        <ion-col col-8>
+    <button ion-button class="continue-btn" (click)="orders()">  <ion-icon name="analytics"></ion-icon> &nbsp; Track Order &nbsp;</button>
+    <br><button ion-button outline class="continue-btnn" (click)="home()">  <ion-icon name="basket"></ion-icon> &nbsp; Continue Shopping</button>
+</ion-col>
+<ion-col col-2>
+    </ion-col>
+
+</ion-row>
+    <br>
+    <br>
+</ion-col>
+
+</ion-row>
+
+
+</ion-content>

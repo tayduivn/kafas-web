@@ -1,0 +1,51 @@
+page-order-list {
+    .orders-item{
+        padding: 12px 14px 6px 20px;
+        color: #666;
+        margin-bottom: 18px;
+        h5{
+            font-size: 20px;
+            margin-bottom: 8px;
+        }
+        p{
+            margin-bottom: 12px; 
+        }
+        .status{
+            margin-top: 5px;
+            font-size: 16px;
+            strong{
+                color: $danger
+            }
+        }
+        .item-name{
+            font-size: 16px;
+        }
+    }
+
+.empty-list{
+  //  opacity: 0.8;
+    margin-top: 10%;
+    text-align: center;
+    ion-icon{
+      color: $danger;
+      font-size: 150px;
+    }
+    h4{
+      color: $grey;
+      margin-top: 10px;
+    //  font-weight: 700;
+      font-size: 20px;
+    }
+  }
+.btn{
+  width: 100%;
+  border-radius: 5px;
+  height: 4.4rem;
+  font-size: 16px;
+display: block;
+margin: 0 auto;
+  background-color: $danger;
+  color: white;
+}
+
+}

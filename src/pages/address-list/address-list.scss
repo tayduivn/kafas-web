@@ -1,0 +1,157 @@
+page-address-list {
+  .content {
+    // background-image: url(../assets/img/address-bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+
+  .amount-block {
+    background-color: $light;
+    margin: 0 0 1em 0;
+    .loyality-check {
+      .label {
+        color: $grey;
+        font-size: 16px;
+      }
+    }
+    .total {
+      font-size: 16px;
+      color: $grey;
+   //   font-style: italic;
+      padding: 0 5px 0 10px;
+      .currency {
+        font-size: 16px;
+        color: $danger !important;
+      }
+    }
+    .right {
+      float: right;
+    }
+    .item {
+      background-color: transparent;
+    }
+    .checkbox .checkbox-checked {
+      border-color: $danger;
+      background-color: $danger;
+    }
+    .item-inner {
+      border-bottom: 0 !important;
+    }
+    .checkbox {
+      margin: 0px 0px 0px 10px !important;
+    }
+  }
+
+  .warning {
+    color: $danger;
+    margin-left: 10px;
+    font-size: 12px;
+  }
+  .item {
+    padding-left: 0;
+    .label {
+      margin: 13px 8px 13px 0;
+      padding-left: 16px;
+      font-size: 16px;
+    }
+    ion-icon {
+      font-size: 16px;
+      float: right;
+      font-weight: 700;
+    }
+  }
+  .booking-block {
+    margin: 1em 0;
+
+    .col {
+      padding: 0 !important;
+    }
+    .border {
+      border-right: 1px solid;
+      border-color: rgba(0, 0, 0, 0.1);
+    }
+    .booking-opt {
+      padding: 0;
+      background-color: $dark;
+
+      .label {
+        margin-left: 8px;
+        color: $white;
+      }
+      .item-inner {
+        border: 0;
+      }
+    }
+    .radio .radio-checked {
+      display: none;
+    }
+    .radio .radio-inner {
+      background-color: $danger !important;
+    }
+    .radio .radio-icon {
+      display: none;
+    }
+    .item-radio-checked {
+      background-color: $danger !important;
+    }
+  }
+  .button {
+    height: 46px;
+    font-size: 16px;
+    border-radius: 0;
+    background-color: $danger;
+    margin-top: 1em;
+  }
+  .add {
+    background-color: $light-grey;
+    border: 0;
+  }
+  .select-address {
+    .col {
+      padding: 0 15px;
+      border-bottom: 1px solid;
+      border-color: rgba(0, 0, 0, 0.1);
+      .show-address {
+        font-size: 16px;
+        margin: 10px 0;
+      }
+    }
+  }
+  .radio .radio-checked {
+    border-color: $primary !important;
+  }
+  .radio .radio-inner {
+    background-color: $primary !important;
+  }
+  .radio-ios .radio-checked .radio-inner {
+    background-color: transparent !important;
+    border-color: $primary;
+  }
+  .radio-md .radio-icon {
+    left: 5px !important;
+  }
+
+  .myPage {
+    .myActionSheetBtnStyle {
+        color: red;
+    }
+}
+
+.show {
+  font-size: 16px;
+}
+
+.continue-btn {
+  width: 80%;
+  border-radius: 5px;
+  height: 4.4rem;
+  font-size: 16px;
+display: block;
+margin: 0 auto;
+  background-color: $danger;
+  color: white;
+}
+
+
+}

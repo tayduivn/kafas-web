@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>403161893140-ro333oghh95j36d9hprcto5cn670qqav.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.403161893140-ro333oghh95j36d9hprcto5cn670qqav</string>
+	<key>API_KEY</key>
+	<string>AIzaSyChG5szy5P79jQH2P3FS1W_XVL7g0LMK_M</string>
+	<key>GCM_SENDER_ID</key>
+	<string>403161893140</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.kafas.kafasxpressgas</string>
+	<key>PROJECT_ID</key>
+	<string>kafas-5f67b</string>
+	<key>STORAGE_BUCKET</key>
+	<string>kafas-5f67b.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:403161893140:ios:7de1fc1408d3a77c2d1a01</string>
+	<key>DATABASE_URL</key>
+	<string>https://kafas-5f67b.firebaseio.com</string>
+</dict>
+</plist>

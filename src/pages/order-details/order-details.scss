@@ -1,0 +1,84 @@
+page-order-details {
+
+  .card-title {
+    position: absolute;
+    font-size: 30px;
+    width: 100%;
+    color:white;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.2);
+    padding: 3px;
+    text-align: center;
+  }
+  .details {
+    padding: 1em;
+  }
+  .check {
+    color: $primary;
+    font-weight: 700;
+    font-size: 20px
+  }
+  .data {
+    color: $grey;
+    font-size: 16px;
+  }
+  h4{
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  .order-desc{
+    font-size: 16px;
+  }
+  .amount {
+    color: $dark-grey;
+    font-size: 20px;
+    font-weight: 700;
+  }
+  .pay {
+    @extend .data;
+    font-size: 16px;
+  }
+  .btn-add-to-cart {
+    width: 80%;
+    border-radius: 5px;
+    height: 4.4rem;
+    font-size: 16px;
+  display: block;
+  margin: 0 auto;
+    background-color: $danger;
+    color: white;
+
+  }
+  .product-rating {
+    ul {
+      padding: 0 1px;
+      margin: 0;
+
+      &.rating li {
+        padding: 1px !important;
+        background: none;
+        color: #ffb400;
+
+        ion-icon {
+          font-size: 16px;
+        }
+      }
+    }
+  }
+  .text{
+    font-size: 16px;
+  }
+  .rating-Button {
+    width: 80%;
+    border-radius: 5px;
+    height: 4.4rem;
+    font-size: 16px;
+  display: block;
+  margin: 0 auto;
+    background-color: goldenrod;
+    color: white;
+  }
+
+  
+}

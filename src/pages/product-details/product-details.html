@@ -1,0 +1,113 @@
+<ion-header>
+    <ion-navbar *navbar  hide-tabs>
+        <ion-title class="title">{{"Order Details" | translate}}</ion-title>
+        <ion-buttons>
+            <button  end ion-button icon-only color="royal" (click)="navcart()" class="header-btn-cart">
+                <ion-icon name="cart"></ion-icon>
+                <ion-badge class="carts" item-right color="danger">{{noOfItems}}</ion-badge>
+            </button>
+        </ion-buttons>
+    </ion-navbar>
+</ion-header>
+
+<ion-content class="item-page" >
+
+    <ion-row class="top">
+        <ion-col col-3>
+        </ion-col>
+        <ion-col   col-6>
+        <img class="productImage" src={{menuItems.thumb}} alt="{{menuItems.title}} ">
+    </ion-col>
+      <ion-col col-3>
+        </ion-col>
+    </ion-row>
+
+    <!-- first-row -->
+    <!--favourite-->
+    <span clear text-center *ngIf="isLiked">
+        &nbsp;&nbsp;&nbsp;<ion-icon  name="heart" class="fav" (click)="removeFevrt(menuItems.$key)"></ion-icon>
+    </span>
+    <span clear text-center *ngIf="!isLiked">
+        &nbsp;&nbsp;&nbsp;<ion-icon name="heart" class="fav heart-clicked" (click)="addToFevrt(menuItems.$key)"></ion-icon>
+    </span>
+
+    <span clear (click)="goToProductList()" text-center>
+        &nbsp;&nbsp;&nbsp;<ion-icon name="arrow-back" class="favv heart-clickedd" ></ion-icon>
+    </span>
+
+    
+   <ion-row class="center2">
+     <ion-col  col-10 col-xl-8 col-lg-8 col-md-10>
+            <ion-row>
+<ion-col col-3>
+        <span class="tittletop">
+            <br>
+           &nbsp;Xpress Gas
+        </span>
+<br>
+    <div>
+        &nbsp; {{menuItems.name}}
+    </div>
+</ion-col>
+        <ion-col col-6>
+           
+            <div class="count">
+              <span class="countt">Quantity: &nbsp; &nbsp;</span> &nbsp; 
+              <br>
+              <br>
+                <span class="item-count" (click)="removeQuantity()">
+                    -
+                </span>
+                  <span class="item-count show-count">
+                    {{count}}
+                </span>
+                <span class="item-count" (click)="addQuantity()">
+                    +
+                    </span>
+            </div>
+
+        </ion-col>
+
+    </ion-row>
+
+    </ion-col>
+    </ion-row>
+
+
+
+    <!-- row-2 -->
+    <ion-row class="center2">
+     <ion-col  col-10 col-xl-8 col-lg-8 col-md-10>
+    <ion-list  radio-group class="size-list">
+        <ion-list-header class="size-list-header" >
+            {{"Description:" | translate}}
+        </ion-list-header>
+            <p  class="parama">
+            {{menuItems.meta}}
+            </p>
+        </ion-list>
+        <ion-list  radio-group class="size-list">
+        <ion-list-header class="size-list-header" >
+            {{"Price:" | translate}}
+        </ion-list-header>
+           <br>
+        <ion-item class="size-list-item">
+            <br>
+            <ion-label *ngIf="menuItems.specialPrice"> {{menuItems.pname}}
+              <p>  <span class="cutt">₦{{menuItems.value}}</span>
+                <span class="offer-p">₦{{menuItems.specialPrice |number:0}}</span>  </p>
+                <br>
+            </ion-label>
+        </ion-item>
+    </ion-list>
+
+</ion-col>
+        </ion-row>
+
+
+</ion-content>
+
+<ion-footer>
+     <button block class="continue-btn" icon-left (click)="addToCart(menuItems)"> <ion-icon name="cart">
+     </ion-icon> Order Now</button>
+</ion-footer>

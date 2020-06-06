@@ -1,0 +1,76 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Refill History</ion-title>
+    <ion-buttons end>
+      <button ion-button icon-only color="royal" (click)="addressMenu()" class="header-btn-cart">
+          <ion-icon name="list"></ion-icon>
+          
+      </button>
+  </ion-buttons>
+  </ion-navbar>
+</ion-header>
+<ion-content [ngClass]="{bg:!isBooking()}">
+
+  <div *ngIf="!isBooking()">
+    <ion-row>
+        <ion-icon class="empty-cart" name="information"></ion-icon>
+    </ion-row>
+    <h4 class="wis">Your refill history is empty!</h4>
+</div>
+
+<ion-row class="center">
+     <ion-col  col-10 col-xl-8 col-lg-8 col-md-10>
+
+<div *ngIf="isBooking()">
+  <ion-card class="card_content" *ngFor="let item of bookingDetails; let i=index;">
+    <ion-list class="overlay_top">
+      
+      <h2 class="id" padding> <ion-icon name="beaker"></ion-icon> &nbsp; Cylinder Refil History: {{i+1}}</h2>
+    </ion-list>
+    <ion-card-content class="overlay_content">
+     
+      <ion-row class="details" text-center>
+        <ion-col col-6>
+          <h1 class="persons">{{item.csize}}</h1>
+          <p class="subline">Cylinder Type</p>
+        </ion-col>
+        <ion-col col-6>
+          <h1 class="persons">{{item?.tableNumber? item?.tableNumber: item.status }}</h1>
+          <p (click)="delete(item)" class="subline">Response</p>
+        </ion-col>
+      </ion-row>
+      <ion-row justify-content-center padding>
+        <ion-col col-6 class="date">
+          <ion-icon ios="ios-calendar-outline" name="calendar" class="icon"></ion-icon>
+          <h3 class="descrption">{{item.date}}</h3>
+        </ion-col>
+        <ion-col col-6 class="time">
+          <ion-icon ios="ios-clock-outline" name="clock" class="icon"></ion-icon>
+          <h3 class="descrption">{{item.time}}</h3>
+        </ion-col>
+      <!----  <h4 style="color: white;"> Location: {{item.location}}</h4>  -->
+      </ion-row>
+    </ion-card-content>
+    <ion-list class="overlay_bottom" padding>
+      <ion-list col-6 class="status">
+        <h4 style="color: white;"> Status: <span style="color: red;">{{item.status}}</span></h4>
+        <!-- <ion-icon padding-left ios="ios-heart" name="heart" class="icon" ></ion-icon> -->
+      </ion-list>
+      <!-- <ion-list col-6 class="rating">
+          <h4>Rating</h4>
+          <div class="star">
+            <ion-icon name="star"></ion-icon>
+            <ion-icon name="star"></ion-icon>
+            <ion-icon name="star"></ion-icon>
+            <ion-icon name="star-half"></ion-icon>
+            <ion-icon name="star-outline"></ion-icon>
+          </div>
+        </ion-list> -->
+    </ion-list>
+  </ion-card>
+</div>
+</ion-col>
+
+</ion-row>
+
+</ion-content>

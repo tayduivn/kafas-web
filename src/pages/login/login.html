@@ -1,0 +1,109 @@
+<ion-header>
+    <ion-navbar hideBackButton>
+        <ion-title color="white">{{'Login' | translate }}</ion-title>
+    </ion-navbar>
+</ion-header> 
+
+<ion-content item-center>
+  <!--- <img class="logo" src="assets/icon/app_icon.png">
+   <b> <h5 text-center>Login to your account</h5></b>   --> 
+
+    <!--inputs-->
+    <!--email-->
+<div class="scroll-content">
+        <div class="upper-content">
+
+    <br>
+    <br>
+    <br>
+    <br>
+
+<!----    <ion-row>
+        <ion-col text-center col-12>
+            <span (click)="googleLogin()">
+                <img class="social-icon" src="assets/img/g+.png">
+            </span>
+          &nbsp; &nbsp; &nbsp; &nbsp;
+            <span (click)="doFbLogin()">
+                <img class="social-icon" src="assets/img/fb.png">
+            </span> 
+            
+        </ion-col>
+    </ion-row>   
+
+
+    <br>
+    <br>
+    <h4 text-center>OR</h4> --->
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <form [formGroup]="valForm" (submit)="OnLogin($event, valForm.value)">
+     
+     <ion-row class="center">
+     <ion-col  col-10 col-xl-4 col-lg-4 col-md-6>
+                <ion-item class="beta">
+                    <ion-label><ion-icon class="iconGrey" name="mail"></ion-icon></ion-label>
+                    <ion-input class="form-control size" type="email" name="email" 
+                        autocomplete="off" formControlName="email" placeholder="Email Address" required=""></ion-input>
+                </ion-item>
+            </ion-col>
+        </ion-row>
+
+       <ion-row class="center">
+     <ion-col  col-10 col-xl-4 col-lg-4 col-md-6>
+        <ion-item class="beta">
+            <ion-label><ion-icon class="iconGrey" name="lock"></ion-icon></ion-label> 
+            <ion-input  [(ngModel)]="password" class="size" placeholder="Password" formControlName="password" required="" [type]="getType()"></ion-input>
+            <button (click)="toggleTextPassword()" ion-button clear class="para" type="button" item-right> <ion-icon  name="eye" ></ion-icon></button>
+     </ion-item>
+ </ion-col>
+</ion-row>
+
+
+     <ion-row class="center">
+     <ion-col  col-10 col-xl-4 col-lg-4 col-md-6>
+
+        <ion-row>
+            <ion-col col-6>
+                <ion-checkbox class="check margin-left" checked="true"></ion-checkbox><span class="bigg"> Remember Me</span>
+            </ion-col>
+
+            <ion-col col-6>
+                 <b (click)="onClickForgotPassword()" class="items"><u class="bigg margin-left">{{"Forgot Password?" | translate}}</u></b>
+            </ion-col>
+
+        </ion-row>
+</ion-col>
+</ion-row>
+
+        
+
+       <ion-row class="center">
+     <ion-col  col-10 col-xl-4 col-lg-4 col-md-6>
+        <!--button-->
+                <button  class="login-btn" type="submit">{{"Continue to buy gas" | translate}}
+                </button>
+                <br>
+                <a (click)="Register()">
+                    <p text-center>Dont't have an account? <b><a class="redd">Sign Up</a></b></p>
+                </a>
+            </ion-col>
+        </ion-row>
+ <!--forget-->
+    </form>
+</div>
+    <!--login with-->
+   <!--- <ion-row>
+        <ion-col col-12>
+            <p text-center>{{"LOGIN WITH" | translate}}</p>
+        </ion-col>
+    </ion-row> -->
+
+    <!--Social login-->
+   
+</div>
+</ion-content>

@@ -1,0 +1,26 @@
+page-intro {
+
+    .social-icon {
+        width: 150px;
+        height: 75px;
+        margin: auto;
+        display: block;
+      }
+
+      .gas {
+        margin: auto;
+        display: block;
+      }
+
+      .login-btn {
+        width: 80%;
+        display: block;
+        margin: 0 auto;
+        border-radius: 5px;
+        height: 4.4rem;
+        color: white;
+        font-size: 16px;
+        background-color: $danger;
+      }
+
+}

@@ -1,0 +1,70 @@
+page-favourite {
+  .header-btn {
+    margin: 0 10px !important;
+  }
+  h3 {
+    font-size: 16px;
+    text-align: center;
+    color: $primary;
+  }
+
+  ion-label {
+    white-space: normal;
+  }
+  .heading {
+    font-size: 20px;
+    font-weight: 700;
+    color: $grey;
+  }
+  .item-md ion-thumbnail img {
+    height: 5em;
+    width: 5em;
+  }
+  .add {
+    background-color: $danger;
+    border-radius: 0px;
+    box-shadow: none;
+  }
+  .delete {
+    border-radius: 0px;
+    box-shadow: none;
+    height: 35px !important;
+    float: right;
+  }
+  .empty-cart {
+    font-size: 150px;
+    display: block;
+    margin: 0.2em auto 0;
+    margin-top: 10%;
+    color: $danger;
+  }
+  .bg {
+   // background-image: url(../assets/img/bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  h4 {
+    font-size: 16px;
+  //  text-align: center;
+    margin-top: 10px;
+    color: $black;
+  }
+  .continue-btn {
+    width: 50%;
+    border-radius: 5px;
+    height: 4.4rem;
+    font-size: 16px;
+    display: block;
+   margin: 0 auto;
+    background-color: $danger;
+    color: white;
+  }
+
+  .wis{
+    font-size: 20px;
+    text-align: center;
+  }
+
+
+}

@@ -1,0 +1,81 @@
+{
+  "prepare_queue": {
+    "installed": [],
+    "uninstalled": []
+  },
+  "config_munge": {
+    "files": {}
+  },
+  "installed_plugins": {
+    "call-number": {
+      "PACKAGE_NAME": "com.kafasxpress.kafasgas"
+    },
+    "cordova-android-support-gradle-release": {
+      "ANDROID_SUPPORT_VERSION": "27.+",
+      "PACKAGE_NAME": "com.kafasxpress.kafasgas"
+    },
+    "cordova-custom-config": {
+      "PACKAGE_NAME": "com.kafasxpress.kafasgas"
+    },
+    "cordova-plugin-camera": {
+      "ANDROID_SUPPORT_V4_VERSION": "27.+",
+      "PACKAGE_NAME": "com.kafasxpress.kafasgas"
+    },
+    "cordova-plugin-datepicker": {
+      "PACKAGE_NAME": "com.kafasxpress.kafasgas"
+    },
+    "cordova-plugin-device": {
+      "PACKAGE_NAME": "com.kafasxpress.kafasgas"
+    },
+    "cordova-plugin-email": {
+      "PACKAGE_NAME": "com.kafasxpress.kafasgas"
+    },
+    "cordova-plugin-file": {
+      "PACKAGE_NAME": "com.kafasxpress.kafasgas"
+    },
+    "cordova-plugin-filechooser": {
+      "PACKAGE_NAME": "com.kafasxpress.kafasgas"
+    },
+    "cordova-plugin-filepath": {
+      "PACKAGE_NAME": "com.kafasxpress.kafasgas"
+    },
+    "cordova-plugin-geolocation": {
+      "PACKAGE_NAME": "com.kafasxpress.kafasgas"
+    },
+    "cordova-plugin-googleplus": {
+      "PLAY_SERVICES_VERSION": "11.8.0",
+      "PACKAGE_NAME": "com.kafasxpress.kafasgas"
+    },
+    "cordova-plugin-inappbrowser": {
+      "PACKAGE_NAME": "com.kafasxpress.kafasgas"
+    },
+    "cordova-plugin-ionic-webview": {
+      "ANDROID_SUPPORT_ANNOTATIONS_VERSION": "27.+",
+      "PACKAGE_NAME": "com.kafasxpress.kafasgas"
+    },
+    "cordova-plugin-splashscreen": {
+      "PACKAGE_NAME": "com.kafasxpress.kafasgas"
+    },
+    "cordova-plugin-statusbar": {
+      "PACKAGE_NAME": "com.kafasxpress.kafasgas"
+    },
+    "cordova-plugin-whitelist": {
+      "PACKAGE_NAME": "com.kafasxpress.kafasgas"
+    },
+    "cordova-plugin-x-socialsharing": {
+      "ANDROID_SUPPORT_V4_VERSION": "24.1.1+",
+      "PACKAGE_NAME": "com.kafasxpress.kafasgas"
+    },
+    "cordova-sqlite-storage": {
+      "PACKAGE_NAME": "com.kafasxpress.kafasgas"
+    },
+    "ionic-plugin-keyboard": {
+      "PACKAGE_NAME": "com.kafasxpress.kafasgas"
+    }
+  },
+  "dependent_plugins": {
+    "es6-promise-plugin": {
+      "PACKAGE_NAME": "com.kafasxpress.kafasgas"
+    }
+  }
+}

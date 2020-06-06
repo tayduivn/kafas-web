@@ -1,0 +1,124 @@
+<ion-header>
+   <ion-navbar hideBackButton>
+        <ion-title>
+            <ion-title text-center color="white">{{'Signup' | translate }}</ion-title>
+        </ion-title>
+    </ion-navbar> 
+</ion-header>
+
+<ion-content class="login">
+   <!--- <img class="logo" src="assets/icon/app_icon.png">  -->
+   <br>
+   <br>
+   <br>
+   <br>
+    <form [formGroup]="registration" (ngSubmit)="onSubmit()">
+        <ion-row class="center">
+     <ion-col  col-10 col-xl-4 col-lg-4 col-md-6>
+                <ion-item class="beta">
+                    <ion-label><ion-icon class="iconGrey" name="contact"></ion-icon></ion-label>
+                    <ion-input type="text" name="name" formControlName="firstName" placeholder="First Name" required=""></ion-input>
+                </ion-item>
+          </ion-col>
+      </ion-row>
+
+
+       <ion-row class="center">
+     <ion-col  col-10 col-xl-4 col-lg-4 col-md-6>
+                <ion-item class="beta">
+                    <ion-label><ion-icon class="iconGrey" name="contact"></ion-icon></ion-label>
+                    <ion-input type="text" name="name" formControlName="lastName" placeholder="Last Name" required=""></ion-input>
+                </ion-item>
+           </ion-col>
+       </ion-row>
+
+
+        <!--email-->
+       <ion-row class="center">
+     <ion-col  col-10 col-xl-4 col-lg-4 col-md-6>
+                <ion-item class="beta">
+                    <ion-label><ion-icon class="iconGrey" name="mail"></ion-icon></ion-label>
+                    <ion-input type="email" name="email" formControlName="email" placeholder="Email Address"  required=""></ion-input>
+                </ion-item>
+           </ion-col>
+       </ion-row>
+
+
+        <!--Mobile No-->
+        <ion-row class="center">
+     <ion-col  col-10 col-xl-4 col-lg-4 col-md-6>
+                <ion-item class="beta">
+                    <ion-label><ion-icon class="iconGrey" name="call"></ion-icon></ion-label>
+                    <ion-input type="tel" name="mobileNo" id="mobileNo" placeholder="Phone Number"  formControlName="mobileNo"></ion-input>
+                </ion-item>
+           </ion-col>
+       </ion-row>
+
+
+        <!--- Location -->
+       <ion-row class="center">
+     <ion-col  col-10 col-xl-4 col-lg-4 col-md-6>
+                <ion-item no-lines class="beta">
+                  <ion-label><ion-icon class="iconGrey" name="pin"></ion-icon></ion-label>
+
+   <ion-input name="address" formControlName="address" [(ngModel)]="address" type="text" placeholder="Location" required=""></ion-input>
+
+   <button (click)="showAddressModal()" ion-button clear class="para" type="button" item-right> SET ON MAP</button>
+
+                </ion-item>
+          </ion-col>
+      </ion-row>
+
+
+        <!--password-->
+       <ion-row class="center">
+     <ion-col  col-10 col-xl-4 col-lg-4 col-md-6>
+        <ion-item class="beta">
+            <ion-label><ion-icon class="iconGrey" name="lock"></ion-icon></ion-label> 
+            <ion-input  [(ngModel)]="password" placeholder="Password" formControlName="password" required="" [type]="getType()"></ion-input>
+            <button (click)="toggleTextPassword()" ion-button clear class="para" type="button" item-right> <ion-icon  name="eye" ></ion-icon></button>
+        </ion-item>
+    </ion-col>
+</ion-row>
+
+
+        <br>
+        <!--button-->
+      <ion-row class="center">
+     <ion-col  col-10 col-xl-4 col-lg-4 col-md-6>
+                <button class="login-btn" type="submit" >{{"Sign Up" | translate}}
+                </button>
+                <br>
+                <a (click)="navLogin()">
+                    <p text-center>Already have an account? <b><a class="redd">Sign in</a></b></p>
+                </a>
+                <br>
+                  <p text-center buttom>By signing up, you agree with our <a class="colour" href="https://kafasxpressgas.com/terms-and-conditions/"><b class="colour">terms & conditions</b></a></p>
+           </ion-col>
+        </ion-row>
+    </form>
+    <!--login with-->
+    <!-- <ion-row>
+        <ion-col col-12>
+            <p text-center>{{"REGISTER WITH" | translate}}</p>
+        </ion-col>
+    </ion-row> -->
+
+
+    <!--Social login-->
+    <!-- <ion-row>
+        <ion-col text-center col-12>
+            <span (click)="doFbLogin()">
+                <img class="social-icon" src="assets/img/fb.png">
+            </span>
+            <span (click)="googleLogin()">
+                <img class="social-icon" src="assets/img/g+.png">
+            </span>
+            <span (click)="twitterLogin()">
+                <img class="social-icon" src="assets/img/twitter.png">
+            </span>
+        </ion-col>
+    </ion-row> -->
+   <!-- <p text-center>OR</p> -->
+    <!--go to registration-->
+</ion-content>

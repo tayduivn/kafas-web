@@ -1,0 +1,120 @@
+// Ionic Variables and Theming. For more info, please see:
+// http://ionicframework.com/docs/v2/theming/
+@import "ionic.globals";
+
+// Shared Variables
+// --------------------------------------------------
+// To customize the look and feel of this app, you can override
+// the Sass variables found in Ionic's source scss files.
+// To view all the possible Ionic variables, see:
+// http://ionicframework.com/docs/v2/theming/overriding-ionic-variables/
+
+// Named Color Variables
+// --------------------------------------------------
+// Named colors makes it easy to reuse colors on various components.
+// It's highly recommended to change the default colors
+// to match your app's branding. Ionic uses a Sass map of
+// colors so you can add, rename and remove colors as needed.
+// The "primary" color is the only required color in the map.
+
+$primary: #f53d3d;
+$primary-lighter: #ffcc80;
+$secondary: #f53d3d;
+$danger: #f53d3d;
+$light: #f4f4f4;
+$dark: #222;
+$white: #fff;
+$black: rgba(#000000, 0.8);
+$grey: #777;
+$light-grey: #ccc;
+$dark-grey: #424242;
+$light-green: #f9ae3e;
+$light-white: #535353;
+$charcoal-grey: #9b9696;
+$white-a: #f3f0f0;
+$white-b: #e9e7e7;
+$gray: #A9A9A9;
+// App iOS Variables
+// --------------------------------------------------
+// iOS only Sass variables can go here
+
+// App Material Design Variables
+// --------------------------------------------------
+// Material Design only Sass variables can go here
+
+// App Windows Variables
+// --------------------------------------------------
+// Windows only Sass variables can go here
+
+// App Theme
+// --------------------------------------------------
+// Ionic apps can have different themes applied, which can
+// then be future customized. This import comes last
+// so that the above variables are used and Ionic's
+// default are overridden.
+
+// Change the color of the tabs text
+$tab-button-md-active-color:              $primary;
+$tab-button-md-inactive-color:            #8c8c8c;
+
+$loading-ios-spinner-color: $danger;
+$loading-md-spinner-color: $danger;
+
+
+
+@import "ionic.theme.default";
+
+// Ionicons
+// --------------------------------------------------
+// The premium icon font for Ionic. For more info, please see:
+// http://ionicframework.com/docs/v2/ionicons/
+
+$ionicons-font-path: "../assets/fonts";
+@import "ionicons";
+
+
+
+
+
+
+@font-face{
+    font-family: 'Lato';
+    font-style: normal-light;
+    font-weight: 700;
+    src: url("../assets/fonts/Lato-Light.ttf")
+}
+
+
+
+
+@font-face{
+    font-family: 'Lato';
+    font-style: regular;
+    font-weight: 700;
+    src: url("../assets/fonts/Lato-Regular.ttf")
+}
+
+
+
+$font-family-base: "Lato";
+body{
+    font-family: "Lato" !important; 
+   font-weight: 700 !important;
+}
+
+ ion-title, span, div, button, ion-button {
+    font-family: "Lato" !important; 
+   font-weight: 700 !important;
+}
+
+p {
+    font-family: "Lato" !important;
+    font-style: regular !important;
+    font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6, ion-badge, badge-md, badge-md-danger {
+    font-family: "Lato" !important;
+    font-style: regular !important;
+    font-weight: 700;
+}

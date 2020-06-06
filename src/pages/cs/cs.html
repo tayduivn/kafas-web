@@ -1,0 +1,131 @@
+<ion-header>
+  <ion-navbar>
+      <ion-title>Consultancy Service</ion-title>
+      <ion-buttons end>
+          <button ion-button icon-only color="royal" (click)="navcart()">
+              <ion-icon name="help"></ion-icon>
+          </button>
+      </ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+<ion-content class="contact">
+
+ <ion-row class="center2">
+     <ion-col  col-10 col-xl-8 col-lg-8 col-md-10>
+<!---  <p class="contact-head">{{"Contact Us" | translate}}</p> -->
+<br>
+<br>
+  <br>
+  <form (ngSubmit)="onSend(f)" #f="ngForm">
+      <!--name-->
+
+      <ion-row>
+        <ion-label text-center>
+          Contact Information.
+        </ion-label>
+      </ion-row>
+
+      <ion-row>
+          <ion-col col-12>
+              <ion-item class="beta">
+                  <ion-input placeholder="Contact Name:" class="size" type="text" name="name" id="name" [(ngModel)]="user.name" required></ion-input>
+              </ion-item>
+          </ion-col>
+      </ion-row>
+      <!--email-->
+  <!---    <ion-row>
+          <ion-col col-12>
+              <ion-item>
+                  <ion-label class="size" >Email:</ion-label>
+                  <ion-input class="size" type="email" name="email" id="email" [(ngModel)]="user.email" required></ion-input>
+              </ion-item>
+          </ion-col>
+      </ion-row>  -->
+      <!----Phone-->
+      <ion-row>
+        <ion-col col-12>
+            <ion-item class="beta">
+                <ion-input class="size" placeholder="Contact Phone:" type="phone" name="phone" id="phone" [(ngModel)]="user.phone" required></ion-input>
+            </ion-item>
+        </ion-col>
+    </ion-row>
+    <!----Location-->
+ <!----   <ion-row>
+      <ion-col col-12>
+          <ion-item>
+              <ion-input class="size" placeholder="Contact Location:" type="location" name="location" id="location" [(ngModel)]="user.location" required></ion-input>
+          </ion-item>
+      </ion-col>
+  </ion-row>  -->
+    <!----Service-->
+ <!---  <ion-row>
+      <ion-col col-12>
+          <ion-item>
+              <ion-input class="size" placeholder="Availability Date & Time" type="service" name="service" id="service" [(ngModel)]="user.service" required></ion-input>
+          </ion-item>
+      </ion-col>
+  </ion-row>  --> 
+  <ion-row>
+    <ion-label text-center>
+      Select your Availability Date and Time.
+    </ion-label>
+  </ion-row>
+  <ion-row>
+    <ion-col col-12>
+    <ion-item class="beta">
+      <ion-label>
+        <ion-icon name="calendar" class="icons"></ion-icon> Select Availability Date: 
+      </ion-label>
+      <ion-datetime displayFormat="DD-MM-YYYY" type="date" name="date" id="date"  [(ngModel)]="user.date"></ion-datetime>
+      <ion-label>
+       
+      </ion-label>
+    </ion-item>
+  </ion-col>
+</ion-row>
+<!--order-->
+<ion-row>
+  <ion-col col-12>
+    <ion-item class="beta">
+      <ion-label>
+        <ion-icon name="time" class="icons"></ion-icon> Select Availability Time: 
+      </ion-label>
+      <ion-datetime displayFormat="hh-mm A" type="time" name="time" id="time"  [(ngModel)]="user.time"></ion-datetime>
+      <ion-label>
+       
+      </ion-label>
+    </ion-item>
+    </ion-col>
+</ion-row>
+      <!--message-->
+  <!----    <ion-row>
+          <ion-col col-12>
+              <ion-item>
+                  <ion-textarea placeholder="Description:" class="size" rows="6" lineHeight="42" name="message" id="message" [(ngModel)]="user.message" required></ion-textarea>
+              </ion-item>
+          </ion-col>
+      </ion-row>  -->
+      <!--button-->
+      <ion-row>
+        <ion-col col-3>
+        </ion-col>
+          <ion-col col-6>
+              <br>
+              <button class="submit-btn" type='submit' [disabled]="!f.valid"> Send
+              </button>
+          </ion-col>
+          <ion-col col-3>
+        </ion-col>
+      </ion-row>
+
+      <ion-row>
+        <p text-center>Ensure to put the Date and Time you would be available for a call. Once your request has been submitted, An agent would reach out to you within the next 24hours.</p>
+      </ion-row>
+  </form>
+
+</ion-col>
+
+        </ion-row>
+
+</ion-content>

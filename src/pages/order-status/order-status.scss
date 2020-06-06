@@ -1,0 +1,59 @@
+page-order-status {
+  .top {
+    background-color: #e6e6fa;
+    height: 100px;
+    width: 100%;
+    p {
+      text-align: center;
+      font-size: 25px;
+      color: #666;
+    }
+  }
+  .status-block {
+    p {
+      font-size: 1em;
+      white-space: normal;
+      overflow: visible;
+      margin: 8px 0 0 5px;
+      span {
+        float: right;
+        font-size: 16px;
+        margin-top: 7px;
+      }
+    }
+    .checked {
+      color: $primary !important;
+      font-size: 16px;
+    }
+    .time {
+      font-size: 16px;
+      margin: 0 0 5px 26px;
+      color: #000;
+      position: absolute;
+      right: 0;
+      top: -8px;
+    }
+    .stat{
+      font-size: 16px;
+      text-align: center;
+    }
+  }
+  .list {
+    margin-top: 2em;
+    .item {
+      border-bottom: 1px solid;
+      border-color: rgba(0, 0, 0, 0.05);
+      min-height: 60px;
+    }
+    .item-inner {
+      border-bottom: 0 !important;
+    }
+    .label {
+      overflow: visible;
+    }
+  }
+  .thanx {
+    text-align: center;
+    font-size: 16px;
+  }
+}

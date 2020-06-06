@@ -1,0 +1,36 @@
+<ion-header>
+  <ion-navbar>
+      <ion-title class="title">{{"Manage Address"}}
+      </ion-title>
+      <ion-buttons end>
+          <button ion-button icon-only color="royal" (click)="addressMenu()" class="header-btn-cart">
+              <ion-icon name="list"></ion-icon>
+              <ion-badge class="carts" item-right color="danger">{{noOfItems}}</ion-badge>
+          </button>
+      </ion-buttons>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+<div>
+  <ion-list class="size-list">
+    <!--New  Address-->
+    <ion-item class="add" (click)="addAddress()">{{"Add New Address"}}
+        <ion-icon name="add"></ion-icon>
+    </ion-item>
+</ion-list>
+ <!--saved address list-->
+ <ion-list >
+  <ion-item *ngFor="let address of addressList">
+      <ion-label>
+          <p class="show">{{address.name}} </p>
+          <p class="show">{{address.address}}</p>
+          <p class="show">{{address.city}}</p>
+          <p class="show">{{address.pincode}}</p>
+      </ion-label>
+  </ion-item>
+</ion-list>
+</div>
+<br>
+
+</ion-content>

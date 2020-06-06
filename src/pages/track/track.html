@@ -1,0 +1,32 @@
+<ion-header>
+  <ion-navbar color="primary">
+    <ion-title>
+      Track Order
+    </ion-title>
+     <button ion-button menuToggle end>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+  </ion-navbar>
+</ion-header>
+ 
+<ion-content>
+ 
+ <div #map id="map" style="height:100%"></div>
+
+
+</ion-content>
+
+
+<ion-footer class="foot">
+
+<ion-row>
+
+<ion-col col-12 text-center>
+
+<p><ion-icon color="danger" name="clock"></ion-icon> The estimated time of arrival is in {{duration}}<br><ion-icon color="danger" name="speedometer"></ion-icon> The calculated distance is {{distance}}</p>
+
+</ion-col>
+
+</ion-row>
+
+  </ion-footer>

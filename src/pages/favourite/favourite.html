@@ -1,0 +1,55 @@
+<ion-header>
+    <ion-navbar>
+        <ion-title>{{"Wishlist" | translate}}</ion-title>
+        <ion-buttons end>
+            <button ion-button icon-only color="royal" class="header-btn" (click)="navcart()">
+                <ion-icon name="cart"></ion-icon>
+                <ion-badge class="carts" item-right color="danger">{{noOfItems}}</ion-badge>
+            </button>
+        </ion-buttons>
+    </ion-navbar>
+</ion-header>
+<ion-content [ngClass]="{bg:!isFavourite()}">
+    <div *ngIf="!isFavourite()">
+        <ion-row>
+            <ion-icon class="empty-cart" name="heart"></ion-icon>
+        </ion-row>
+        <h4 class="wis">Wishlist is empty!</h4>
+    </div>
+
+   <ion-row class="center">
+     <ion-col  col-10 col-xl-8 col-lg-8 col-md-10>
+
+    <div *ngIf="isFavourite()">
+        <ion-card *ngFor="let favouriteItem of favouriteItems">
+            <ion-list>
+                <ion-item>
+                    <ion-thumbnail item-left>
+                        <img src={{favouriteItem.thumb}}>
+                    </ion-thumbnail>
+                    <br>
+                    <br>
+                    <p text-center class="heading">{{favouriteItem.title}}</p>
+                    <br>
+                    <h4 text-center>{{favouriteItem.description}}</h4>
+                    <br>
+                    <div align-center class="footer-btn">
+                        <button class="continue-btn center2"  (click)="buyNow(favouriteItem.$key)">
+                            <ion-icon name="cart"></ion-icon>
+                            &nbsp; {{"Buy Now" | translate}}
+                        </button>
+                        <button color="danger" class="delete"  ion-button outline (click)="removeFromFavourites(favouriteItem.$key)">
+                            <ion-icon name="trash">
+                            </ion-icon>
+                        </button>
+                    </div>
+                </ion-item>
+            </ion-list>
+        </ion-card>
+    </div>
+
+</ion-col> 
+
+</ion-row>
+
+</ion-content>

@@ -1,0 +1,73 @@
+page-orders {
+  ion-row {
+    border-bottom: 1px solid $light-grey;
+  }
+  .orders-list {
+    .orders-item {
+      padding: 0px !important;
+      img {
+        min-height: 60px;
+        width: 100%;
+      }
+      .item-name,
+      .date {
+        font-size: 20px;
+        line-height: 20px;
+      }
+      .item-price {
+        font-weight: 700;
+        font-size: 16px;
+        color: $danger;
+      }
+      .item-pricing {
+       // font-weight: 700;
+        font-size: 16px;
+      }
+      .btn-cart {
+        height: 2.2rem;
+        width: 2.2rem;
+        float: right;
+        box-shadow: none;
+      }
+      .btn-view {
+        float: right;
+        margin: 1.2rem 0.2rem;
+        padding: 0 1em;
+        height: 2.5rem;
+        background-color: $danger; 
+        font-size: 16px;
+        border-radius: 5px;
+        box-shadow: none;
+        color: white;
+      }
+    }
+  }
+
+  .empty-cart {
+    font-size: 10.2em;
+    display: block;
+    margin: 0.2em auto 0;
+    color: $white;
+  }
+  .bg {
+  //  background-image: url(../assets/img/bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  h4 {
+    font-size: 16px;
+    text-align: center;
+    color: $white;
+  }
+  .continue-btn {
+    width: 80%;
+    border-radius: 5px;
+    height: 4.4rem;
+    font-size: 16px;
+  display: block;
+  margin: 0 auto;
+    background-color: $danger;
+    color: white;
+  }
+}

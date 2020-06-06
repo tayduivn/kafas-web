@@ -1,0 +1,8 @@
+.tab-item.tab-item-active, .tab-item.active, .tab-item.activated {
+    color: red !important; 
+}
+ion-tabs{
+
+    --ion-tabbar-background-color: red !important; 
+    --ion-tabs-background-color:var(--ion-tabbar-background-color, #ffffff);
+    }

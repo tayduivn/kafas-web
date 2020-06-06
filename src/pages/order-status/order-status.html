@@ -1,0 +1,53 @@
+<ion-header>
+
+    <ion-navbar>
+        <ion-title>{{"Order Status" | translate}}</ion-title>
+        <ion-buttons end>
+            <button ion-button icon-only color="royal" (click)="contact()" class="header-btn-cart">
+                <ion-icon name="call"></ion-icon>
+            </button>
+        </ion-buttons>
+    </ion-navbar>
+
+</ion-header>
+
+
+<ion-content>
+    <ion-row>
+        <div class="top">
+            <br>
+            <p>{{"Your Order Status" | translate}}</p>
+        </div>
+    </ion-row>
+
+    <ion-list class="status-block">
+        <ion-item>
+            <ion-row>
+              <!---  <ion-col col-1>
+                   
+                </ion-col> -->
+                <ion-col col-11>
+                    <p class="time">
+               <ion-icon name="time"></ion-icon> &nbsp; {{stat.ntime | date:'medium'}}
+                    </p>
+                    <br>
+                    <hr>
+                    <br>
+             <p class="stat"> <ion-icon class="checked" name="checkmark-circle"></ion-icon> &nbsp; Your order has been accepted. You will get notified the status here. </p>
+               <br> </ion-col>
+            </ion-row>
+
+            <ion-row>
+                <ion-col col11>
+                    <br>
+             <p class="stat"> <ion-icon class="checked" name="checkmark-circle"></ion-icon> &nbsp; {{stat.note}} </p>
+               <br>
+                </ion-col>
+            </ion-row>
+        </ion-item>
+    </ion-list>
+    <p class="thanx">
+        <ion-icon name="thumbs-up"></ion-icon>
+        &nbsp;{{"Thanks for shopping with us." | translate}}
+    </p>
+</ion-content>

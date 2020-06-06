@@ -1,0 +1,41 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>Write a Review</ion-title>
+    <ion-buttons end>
+      <button ion-button icon-only color="royal" (click)="navcart()">
+          <ion-icon name="cart"></ion-icon>
+          <ion-badge class="carts" item-right color="danger">{{noOfItems}}</ion-badge>
+      </button>
+  </ion-buttons>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <form (ngSubmit)="onSubmit(f)" #f="ngForm">
+    <br>
+    <h4>If you love us, give us a 5 star!</h4>
+    <div class="product-rating">
+      <rating name="rating" id="rating" [(ngModel)]="review.rating" readOnly="false" max="5" emptyStarIconName="star-outline" halfStarIconName="star-half"
+        starIconName="star" nullable="false">
+      </rating>
+    </div>
+
+    <ion-row>
+      <ion-col col-12>
+
+        <ion-label>Review</ion-label>
+        <ion-textarea rows="3" name="message" id="message" [(ngModel)]="review.comment" required></ion-textarea>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col col-12>
+        <br>
+        <button class="submit-button"  block type='submit' [disabled]="!f.valid"> Submit</button>
+      </ion-col>
+    </ion-row>
+  </form>
+
+
+</ion-content>

@@ -1,0 +1,111 @@
+page-login {
+  .btn-log-in {
+    background-color: $danger;
+  }
+  .item {
+    background-color: #e6e6fa;
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+    border-radius: 5px;
+  }
+  .item.item-block .item-inner {
+    border-bottom: 0px;
+  }
+  .item-input .label {
+    color: rgb(90, 90, 90);
+   // font-weight: 700;
+  }
+  .items{
+   
+    color: rgb(90, 90, 90);
+  }
+  .items2{
+    margin-left: 38px;
+   
+    color: grey;
+  }
+  
+  .check {
+    font-size: 1px;
+  }
+
+  .redd{
+    color: $danger;
+  }
+
+
+  .login {
+  //  background: url("../assets/img/bggg.jpeg") no-repeat center;
+    background-size: cover;
+    color: $black;
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+    .logo {
+      width: 86px;
+      display: block;
+      margin: 0 auto;
+      margin-top: 4em;
+      padding-bottom: 2em;
+    }
+  }
+  .login-btn {
+    width: 80%;
+    display: block;
+    margin: 0 auto;
+    border-radius: 5px;
+    height: 4.4rem;
+    color: white;
+    font-size: 16px;
+    background-color: $danger;
+  }
+  .social-icon {
+    width: 86px;
+    padding: 0px 20px;
+  }
+  .para {
+    color: grey !important;
+  }
+
+.colour{
+  color: $danger;
+}
+
+.scroll-content {
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  z-index: 1;
+  overflow-x: hidden;
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+  will-change: scroll-position;
+  contain: size style layout;
+  display: flex;             // added by me
+  flex-direction: column;    // added by me
+}
+
+.beta {
+    background-color: 	#f7f7f7;
+   // margin-left: 25%;
+   // margin-right: 50%;
+}
+
+.bigg{
+  font-size: 16px;
+
+}
+
+
+.checkbox-md .checkbox-checked {
+  border-color:grey;
+  background-color: grey;
+}
+
+
+
+
+}

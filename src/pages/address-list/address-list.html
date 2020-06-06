@@ -1,0 +1,86 @@
+<ion-header>
+    <ion-navbar>
+        <ion-title class="title">{{"Delivery" | translate}}
+        </ion-title>
+        <ion-buttons end>
+            <button ion-button icon-only (click)="navcart()" color="royal" class="header-btn">
+                <ion-icon name="cart"></ion-icon>
+                <div *ngIf="noOfItems > 0">
+                    <ion-badge class="carts" item-right color="danger">{{noOfItems}}</ion-badge>
+                </div>
+            </button>
+        </ion-buttons>
+    </ion-navbar>
+</ion-header>
+
+
+<ion-content padding>
+
+   <ion-row class="center2">
+     <ion-col  col-10 col-xl-8 col-lg-8 col-md-10>
+
+    <!--amount calculation-->
+    <ion-row class="amount-block">
+        <ion-col col-6>
+            <p class="total"> {{"Order Total:" | translate}}
+                <span class="currency"> ₦ {{payTotal | number:'.2-2'}}
+                </span>
+            </p>
+        </ion-col>
+        <ion-col col-6>
+            <p class="total">Wallet:
+                <span class="currency"> ₦ {{ loyaltyPoints | number:'.2-2'}}</span>
+            </p>
+        </ion-col>
+        <ion-item class="loyality-check">
+            <ion-label>Pay from wallet</ion-label>
+            <ion-checkbox [disabled]="loyaltyPoints <loyaltyLimit" checked="checked" (ionChange)="updateLoyality($event)"></ion-checkbox>
+        </ion-item>
+        <p class="warning" *ngIf="loyaltyPoints <loyaltyLimit">You should have minimum ₦{{loyaltyLimit | number:'.2-2'}} to use from your wallet</p>
+        <div *ngIf="checked == true">
+           <p class="total"> Amount to be paid:
+                <span class="currency"> ₦ {{orderDetails.grandTotal | number:'.2-2'}}</span>
+            </p>
+        </div>
+    </ion-row>
+    <!--pick up/delivery option-->
+
+    <div>
+        <ion-list radio-group class="size-list">
+            <!--New  Address-->
+            <ion-item class="add" (click)="addAddress()">{{"Update your Delivery Address" | translate}}
+                <ion-icon name="create"></ion-icon>
+            </ion-item>
+        </ion-list>
+        <!--saved address list-->
+        <ion-list radio-group class="address-radio">
+            <ion-item>
+                <ion-label>
+                    <p class="show">{{add.firstName}} {{add.lastName}} </p>
+                    <p class="show">{{add.email}}</p>
+                    <p class="show">{{add.mobileNo}}</p>
+                    <p class="show">{{add.location}}</p>
+                </ion-label>
+                <ion-radio (ionSelect)="selectAddress(address.$key,address)"></ion-radio>
+            </ion-item>
+        </ion-list>
+
+        <ion-row>
+            <ion-col col-3>
+            </ion-col>
+            <ion-col col-6>
+        <button  block class="continue-btn" (click)="checkOut()">{{"Proceed to payment methods" | translate}} &nbsp;
+          <!--  <ion-icon name="arrow-forward"></ion-icon> -->
+        </button>
+        </ion-col>
+            <ion-col col-3>
+            </ion-col>
+        </ion-row>
+    </div>
+
+</ion-col>
+
+</ion-row>
+
+    <br>
+</ion-content>
