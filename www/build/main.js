@@ -354,39 +354,39 @@ webpackEmptyAsyncContext.id = 195;
 
 var map = {
 	"../pages/about-us/about-us.module": [
-		555,
+		521,
 		7
 	],
 	"../pages/add-address/add-address.module": [
-		521,
+		522,
 		23
 	],
 	"../pages/address-list/address-list.module": [
-		522,
+		523,
 		22
 	],
 	"../pages/address/address.module": [
-		523,
+		524,
 		31
 	],
 	"../pages/autocomplete/autocomplete.module": [
-		553,
+		535,
 		34
 	],
 	"../pages/booking-history/booking-history.module": [
-		524,
+		525,
 		30
 	],
 	"../pages/cart/cart.module": [
-		525,
+		526,
 		21
 	],
 	"../pages/category/category.module": [
-		526,
+		527,
 		20
 	],
 	"../pages/checkout/checkout.module": [
-		527,
+		528,
 		6
 	],
 	"../pages/contact/contact.module": [
@@ -394,103 +394,103 @@ var map = {
 		9
 	],
 	"../pages/cs/cs.module": [
-		528,
+		530,
 		25
 	],
 	"../pages/dashboard/dashboard.module": [
-		532,
+		531,
 		19
 	],
 	"../pages/favourite/favourite.module": [
-		530,
+		532,
 		18
 	],
 	"../pages/forgot-password/forgot-password.module": [
-		531,
+		533,
 		1
 	],
 	"../pages/intro/intro.module": [
-		540,
+		534,
 		29
 	],
 	"../pages/location/location.module": [
-		533,
+		536,
 		2
 	],
 	"../pages/login/login.module": [
-		548,
+		538,
 		0
 	],
 	"../pages/offer/offer.module": [
-		534,
+		537,
 		17
 	],
 	"../pages/order-details/order-details.module": [
-		535,
+		539,
 		5
 	],
 	"../pages/order-list/order-list.module": [
-		536,
+		540,
 		16
 	],
 	"../pages/order-status/order-status.module": [
-		537,
+		541,
 		15
 	],
 	"../pages/orders/orders.module": [
-		538,
+		542,
 		14
 	],
 	"../pages/paystack/paystack.module": [
-		539,
+		543,
 		33
 	],
 	"../pages/product-details/product-details.module": [
-		546,
+		544,
 		13
 	],
 	"../pages/product-list/product-list.module": [
-		541,
+		545,
 		4
 	],
 	"../pages/rating/rating.module": [
-		542,
+		546,
 		8
 	],
 	"../pages/registration/registration.module": [
-		543,
+		547,
 		12
 	],
 	"../pages/rt/rt.module": [
-		544,
+		548,
 		24
 	],
 	"../pages/search/search.module": [
-		545,
+		549,
 		3
 	],
 	"../pages/settings/settings.module": [
-		547,
+		550,
 		11
 	],
 	"../pages/tab/tab.module": [
-		549,
+		551,
 		28
 	],
 	"../pages/table-booking/table-booking.module": [
-		550,
+		552,
 		27
 	],
 	"../pages/thankyou/thankyou.module": [
-		554,
+		553,
 		10
 	],
 	"../pages/track/track.module": [
-		551,
+		554,
 		26
 	],
 	"../pages/wallet/wallet.module": [
-		552,
+		555,
 		32
 	]
 };
@@ -1056,7 +1056,7 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(38);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_fire__ = __webpack_require__(134);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__angular_fire__ = __webpack_require__(135);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_component__ = __webpack_require__(515);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__angular_fire_auth__ = __webpack_require__(55);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__angular_fire_database__ = __webpack_require__(73);
@@ -1066,12 +1066,12 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__ngx_translate_core__ = __webpack_require__(294);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__ngx_translate_http_loader__ = __webpack_require__(519);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__angular_platform_browser__ = __webpack_require__(52);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12_firebase_storage__ = __webpack_require__(304);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12_firebase_storage__ = __webpack_require__(305);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__ionic_native_date_picker__ = __webpack_require__(306);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__ionic_native_in_app_browser__ = __webpack_require__(136);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_15__pages_wallet_wallet__ = __webpack_require__(92);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_16__pages_paystack_paystack__ = __webpack_require__(297);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17_angular4_paystack__ = __webpack_require__(298);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_17_angular4_paystack__ = __webpack_require__(299);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_18__ionic_storage__ = __webpack_require__(159);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_19__providers_user_user__ = __webpack_require__(161);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_20__providers_imghandler_imghandler__ = __webpack_require__(160);
@@ -1079,9 +1079,9 @@ Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* pl
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_22__ionic_native_file_chooser__ = __webpack_require__(252);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_23__ionic_native_social_sharing__ = __webpack_require__(158);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_24__providers_social_social__ = __webpack_require__(293);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__ionic_native_google_plus__ = __webpack_require__(305);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_25__ionic_native_google_plus__ = __webpack_require__(302);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_26__ionic_native_geolocation__ = __webpack_require__(300);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__ionic_native_native_geocoder__ = __webpack_require__(302);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_27__ionic_native_native_geocoder__ = __webpack_require__(304);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_28__pages_autocomplete_autocomplete__ = __webpack_require__(296);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
@@ -1133,6 +1133,7 @@ var AppModule = /** @class */ (function () {
             imports: [
                 __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* IonicModule */].forRoot(__WEBPACK_IMPORTED_MODULE_3__app_component__["a" /* MyApp */], {}, {
                     links: [
+                        { loadChildren: '../pages/about-us/about-us.module#AboutUsPageModule', name: 'AboutUsPage', segment: 'about-us', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/add-address/add-address.module#AddAddressPageModule', name: 'AddAddressPage', segment: 'add-address', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/address-list/address-list.module#AddressListPageModule', name: 'AddressListPage', segment: 'address-list', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/address/address.module#AddressPageModule', name: 'AddressPage', segment: 'address', priority: 'low', defaultHistory: [] },
@@ -1140,34 +1141,33 @@ var AppModule = /** @class */ (function () {
                         { loadChildren: '../pages/cart/cart.module#CartPageModule', name: 'CartPage', segment: 'cart', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/category/category.module#CategoryPageModule', name: 'CategoryPage', segment: 'category', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/checkout/checkout.module#CheckoutPageModule', name: 'CheckoutPage', segment: 'checkout', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/cs/cs.module#CsPageModule', name: 'CsPage', segment: 'cs', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/contact/contact.module#ContactPageModule', name: 'ContactPage', segment: 'contact', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/cs/cs.module#CsPageModule', name: 'CsPage', segment: 'cs', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/dashboard/dashboard.module#DashboardPageModule', name: 'DashboardPage', segment: 'dashboard', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/favourite/favourite.module#FavouritePageModule', name: 'FavouritePage', segment: 'favourite', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/forgot-password/forgot-password.module#ForgotPasswordPageModule', name: 'ForgotPasswordPage', segment: 'forgot-password', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/dashboard/dashboard.module#DashboardPageModule', name: 'DashboardPage', segment: 'dashboard', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/intro/intro.module#IntroPageModule', name: 'IntroPage', segment: 'intro', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/autocomplete/autocomplete.module#AutocompletePageModule', name: 'AutocompletePage', segment: 'autocomplete', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/location/location.module#LocationPageModule', name: 'LocationPage', segment: 'location', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/offer/offer.module#OfferPageModule', name: 'OfferPage', segment: 'offer', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/login/login.module#LoginPageModule', name: 'LoginPage', segment: 'login', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/order-details/order-details.module#OrderDetailsPageModule', name: 'OrderDetailsPage', segment: 'order-details', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/order-list/order-list.module#OrderListPageModule', name: 'OrderListPage', segment: 'order-list', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/order-status/order-status.module#OrderStatusPageModule', name: 'OrderStatusPage', segment: 'order-status', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/orders/orders.module#OrdersPageModule', name: 'OrdersPage', segment: 'orders', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/paystack/paystack.module#PaystackPageModule', name: 'PaystackPage', segment: 'paystack', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/intro/intro.module#IntroPageModule', name: 'IntroPage', segment: 'intro', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/product-details/product-details.module#ProductDetailsPageModule', name: 'ProductDetailsPage', segment: 'product-details', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/product-list/product-list.module#ProductListPageModule', name: 'ProductListPage', segment: 'product-list', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/rating/rating.module#RatingPageModule', name: 'RatingPage', segment: 'rating', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/registration/registration.module#RegistrationPageModule', name: 'RegistrationPage', segment: 'registration', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/rt/rt.module#RtPageModule', name: 'RtPage', segment: 'rt', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/search/search.module#SearchPageModule', name: 'SearchPage', segment: 'search', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/product-details/product-details.module#ProductDetailsPageModule', name: 'ProductDetailsPage', segment: 'product-details', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/settings/settings.module#SettingsModule', name: 'Settings', segment: 'settings', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/login/login.module#LoginPageModule', name: 'LoginPage', segment: 'login', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/tab/tab.module#TabPageModule', name: 'TabPage', segment: 'tab', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/table-booking/table-booking.module#TableBookingPageModule', name: 'TableBookingPage', segment: 'table-booking', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/track/track.module#TrackPageModule', name: 'TrackPage', segment: 'track', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/wallet/wallet.module#WalletPageModule', name: 'WalletPage', segment: 'wallet', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/autocomplete/autocomplete.module#AutocompletePageModule', name: 'AutocompletePage', segment: 'autocomplete', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/thankyou/thankyou.module#ThankyouPageModule', name: 'ThankyouPage', segment: 'thankyou', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/about-us/about-us.module#AboutUsPageModule', name: 'AboutUsPage', segment: 'about-us', priority: 'low', defaultHistory: [] }
+                        { loadChildren: '../pages/track/track.module#TrackPageModule', name: 'TrackPage', segment: 'track', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/wallet/wallet.module#WalletPageModule', name: 'WalletPage', segment: 'wallet', priority: 'low', defaultHistory: [] }
                     ]
                 }),
                 __WEBPACK_IMPORTED_MODULE_17_angular4_paystack__["a" /* Angular4PaystackModule */],
@@ -1220,7 +1220,7 @@ var AppModule = /** @class */ (function () {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(38);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(516);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(299);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(298);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__angular_fire_auth__ = __webpack_require__(55);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__angular_fire_database__ = __webpack_require__(73);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__ionic_native_onesignal__ = __webpack_require__(517);
@@ -1260,6 +1260,13 @@ var MyApp = /** @class */ (function () {
     function MyApp(af, db, userservice, imghandler, platform, storage, alertCtrl, toastCtrl, statusbar, loadingCtrl, actionSheetCtrl, splashscreen, socialSharing, oneSignal, events, zone, _social
     //   private translateService: TranslateService
     ) {
+        /*   this.splashscreen.show();
+          let loader = this.loadingCtrl.create({
+            //  content: "Please wait..",
+              spinner: "dots",
+              cssClass: 'my-loading-class'
+            });
+          loader.present();*/
         var _this = this;
         this.af = af;
         this.db = db;
@@ -1296,23 +1303,11 @@ var MyApp = /** @class */ (function () {
         this.subject = "Kafas Xpress Mobile App";
         this.image = "https://res.cloudinary.com/ethion/image/upload/v1590080456/app_icon1_lxnm4a.png";
         this.message = "Never run out of cooking gas with our gas delivery app and smart gas cylinders. Our on-demand gas delivery service makes it easy for you to get cooking gas delivered at the comfort of your home.";
-        this.splashscreen.show();
-        var loader = this.loadingCtrl.create({
-            //  content: "Please wait..",
-            spinner: "dots",
-            cssClass: 'my-loading-class'
-        });
-        loader.present();
         var unsubscribe = __WEBPACK_IMPORTED_MODULE_7_firebase___default.a.auth().onAuthStateChanged(function (user) {
             if (user) {
                 _this.rootPage = 'DashboardPage';
                 unsubscribe();
-                loader.dismiss();
-            }
-            else {
-                _this.rootPage = 'LoginPage';
-                unsubscribe();
-                loader.dismiss();
+                //  loader.dismiss();
             }
         });
         platform.ready().then(function () {
@@ -1688,34 +1683,17 @@ var MyApp = /** @class */ (function () {
     };
     __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["ViewChild"])(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* Nav */]),
-        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* Nav */])
+        __metadata("design:type", typeof (_a = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* Nav */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["j" /* Nav */]) === "function" && _a || Object)
     ], MyApp.prototype, "nav", void 0);
     MyApp = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["Component"])({template:/*ion-inline-start:"/home/jeffrey/Developer/Projects/Kafas Xpress Gas Limited/Kafas_Web_IonicV3/src/app/app.html"*/'<ion-menu persistent="true" class="menu" [content]="content"  side="left">\n  <ion-content class="sidebar-menu">\n\n  <ion-row class="img-name-row">\n      <ion-col *ngIf="isLoggedin()">\n       <br>\n       <br>\n       <!----<div class="profile-image">\n          <ngx-avatar   [style]="ava" bgColor="red" textSizeRatio="2.2" [size]="80"  name={{name}}></ngx-avatar>\n        </div>  --> \n        <span class="user-name">&nbsp;&nbsp;Welcome</span>\n       <br><span class="user-name2">&nbsp;&nbsp;{{name | uppercase}}</span>\n     <!----  <br><span class="user-name">&nbsp;&nbsp;{{email}}</span>  --->\n       <br>\n       <br><span class="user-name">&nbsp;&nbsp;<b class="texttt">₦</b>&nbsp;&nbsp;<a (click)="wallet()" menuClose>Wallet</a> &nbsp;&nbsp; | &nbsp;&nbsp; <ion-icon class="textt" name="chatboxes"></ion-icon>&nbsp;&nbsp;<a class="text3" (click)="support()" menuClose>Support</a></span>\n       \n       <!----  <p class="ppp"  menuClose  (click)="settings()">Edit Profile</p>  --> \n      </ion-col>\n    </ion-row> \n    <br>\n    <br>\n<hr>\n    <button *ngIf="isLoggedin()" menuClose class="menu-item" ion-item (click)="settings()">\n      <ion-icon name="contact" item-left></ion-icon>\n      <span class="menu-text"> {{\'My Profile\'| translate}} </span>\n    </button>\n\n\n    <button menuClose class="menu-item" ion-item (click)="home()">\n      <ion-icon name="home" item-left></ion-icon>\n     <span class="menu-text"> {{\'Order Gas\' | translate}} </span>\n    </button>\n\n\n <!-----  <button menuClose class="menu-item" ion-item (click)="catagory()">\n      <ion-icon name="beaker" item-left></ion-icon>\n      <span class="menu-text"> {{\'Our Products\'| translate}} </span> \n    </button>  --> \n\n    <button *ngIf="isLoggedin()" menuClose class="menu-item" ion-item (click)="yourOrders()">\n      <ion-icon name="timer" item-left></ion-icon>\n      <span class="menu-text">  {{\'Order History\'| translate}} </span> \n    </button>\n\n  <!---  <button *ngIf="isCart()" menuClose class="menu-item" ion-item (click)="offer()">\n      <ion-icon name="pricetag" item-left></ion-icon>\n      {{\'Offers\'| translate}}\n      <ion-badge class="menu-badge">{{noOfItemsInOffer}}</ion-badge>\n    </button> -->\n   <!---- <button *ngIf="isCart()"  menuClose class="menu-item" ion-item (click)="addToCart()">\n      <ion-icon name="cart" item-left></ion-icon>\n      <span class="menu-text">  {{\'My Cart\'| translate}} </span> \n      <ion-badge class="menu-badge">{{noOfItemsInCart}}</ion-badge>\n    </button>  -->\n    \n    <button *ngIf="isLoggedin()" menuClose class="menu-item" ion-item (click)="tableBooking()">\n      <ion-icon name="list-box" item-left></ion-icon>\n      <span class="menu-text">   {{\'Schedule Refill\' | translate}} </span> \n    </button>\n   <button *ngIf="isLoggedin()" menuClose class="menu-item" ion-item (click)="bookingHistory()">\n      <ion-icon name="options" item-left></ion-icon>\n       <ion-badge class="menu-badge"></ion-badge> \n       <span class="menu-text">    {{\'Refill History\' | translate}}  </span> \n    </button> \n   <!---- <button menuClose class="menu-item" ion-item (click)="news()">\n      <ion-icon name="paper" item-left></ion-icon>\n      {{\'News\'| translate}}\n      <ion-badge class="menu-badge">{{noOfItemsInNews}}</ion-badge>\n    </button> -->\n    <button *ngIf="isLoggedin()" menuClose class="menu-item" ion-item (click)="favourite()">\n      <ion-icon name="heart" item-left></ion-icon>\n      <span class="menu-text"> {{\'Wishlist\'| translate}} </span>\n       <ion-badge class="menu-badge">{{noOfItemsInFevrt}}</ion-badge>\n    </button>\n\n<!------    <button *ngIf="isLoggedin()" menuClose class="menu-item" ion-item (click)="manageAddress()">\n      <ion-icon name="pin" item-left></ion-icon>\n      <span class="menu-text"> {{\'Manage Address\'| translate}} </span>\n      <ion-badge class="menu-badge">{{noOfItemsInFevrt}}</ion-badge>\n    </button>  -->\n    \n  <!----   <button menuClose class="menu-item" ion-item (click)="contact()">\n      <ion-icon name="call" item-left></ion-icon>\n      <span class="menu-text"> {{\'Contact Us\'| translate}} </span>\n    </button>  -->\n\n    <button menuClose class="menu-item" ion-item (click)="aboutUs()">\n      <ion-icon name="help" item-left></ion-icon>\n      <span class="menu-text"> {{\'About Us\'| translate}} </span>\n    </button>\n  <!--  <button menuClose class="menu-item" ion-item *ngIf="isLoggedin()" (click)="presentActionSheet()">\n      <ion-icon name="contacts" item-left></ion-icon>\n      <span class="menu-text"> {{\'Invite Friends\' | translate}} </span>\n    </button> -->\n\n   <!--- <button *ngIf="isLoggedin()" menuClose class="menu-item" ion-item (click)="chat()">\n      <ion-icon name="chatbubbles" item-left></ion-icon>\n      {{\'Chat\' | translate}}\n    </button> -->\n    \n    <button *ngIf="!isLoggedin()" menuClose class="menu-item" ion-item (click)="login()">\n      <ion-icon name="log-in" item-left></ion-icon>\n      <span class="menu-text"> {{\'Login\'| translate}} </span>\n    </button>\n    <button *ngIf="isLoggedin()" ion-item (click)="confirmLogout()" menuClose class="menu-item">\n      <ion-icon name="log-out" item-left></ion-icon>\n      <span class="menu-text"> {{\'Logout\'| translate}} </span>\n    </button>\n  </ion-content>\n</ion-menu>\n\n<ion-menu persistent="true" class="menu" [content]="content" *ngIf="this.platform.dir()===\'rtl\'" side="right">\n  <ion-content class="sidebar-menu">\n    <ion-row class="img-name-row">\n      <ion-col>\n        <img class="user-img" src="{{avatar}}">\n        <p class="ppp" (click)="Settings()">Edit Profile</p>\n      </ion-col>\n    </ion-row>\n     <ion-row>\n   <ion-col *ngIf="isLoggedin()">\n        <p class="user-name">{{name | uppercase}}</p>\n      </ion-col> \n    </ion-row>  \n\n\n    <button *ngIf="isLoggedin()" menuClose class="menu-item" ion-item (click)="settings()">\n      <ion-icon name="settings" item-left></ion-icon>\n      <span class="menu-text"> {{\'My Profile\'| translate}} </span>\n    </button>\n\n    <button menuClose class="menu-item" ion-item (click)="home()">\n      <ion-icon name="home" item-left></ion-icon>\n      <span class="menu-text"> {{\'Order Gas\' | translate}} </span>\n    </button>\n   <!----<button menuClose class="menu-item" ion-item (click)="catagory()">\n        <ion-icon name="beaker" item-left></ion-icon>\n        <span class="menu-text"> {{\'Our Products\'| translate}} </span>\n    </button>  --> \n\n   <!--- <button *ngIf="isCart()" menuClose class="menu-item" ion-item (click)="offer()">\n      <ion-icon name="pricetag" item-left></ion-icon>\n      {{\'Offers\'| translate}}\n      <ion-badge class="menu-badge">{{noOfItemsInOffer}}</ion-badge>\n    </button>  -->\n\n    <button *ngIf="isLoggedin()" menuClose class="menu-item" ion-item (click)="yourOrders()">\n      <ion-icon name="timer" item-left></ion-icon>\n      <span class="menu-text"> {{\'Order History\'| translate}} </span>\n    </button>\n\n\n   <!--- <button *ngIf="isCart()" menuClose class="menu-item" ion-item (click)="addToCart()">\n      <ion-icon name="cart" item-left></ion-icon>\n      <span class="menu-text"> {{\'My Cart\'| translate}} </span>\n      <ion-badge class="menu-badge">{{noOfItemsInCart}}</ion-badge>\n    </button>  -->\n   \n   <button *ngIf="isLoggedin()" menuClose class="menu-item" ion-item (click)="tableBooking()">\n      <ion-icon name="list-box" item-left></ion-icon>\n      <span class="menu-text">   {{\'Schedule Refill\' | translate}}  </span>\n    </button>\n   <button *ngIf="isLoggedin()" menuClose class="menu-item" ion-item (click)="bookingHistory()">\n      <ion-icon name="options" item-left></ion-icon>\n       <ion-badge class="menu-badge"></ion-badge>\n       <span class="menu-text"> {{\'Refill History\' | translate}}  </span>\n    </button>  \n <!----   <button menuClose class="menu-item" ion-item (click)="news()">\n      <ion-icon name="paper" item-left></ion-icon>\n      {{\'News\'| translate}}\n      <ion-badge class="menu-badge">{{noOfItemsInNews}}</ion-badge>\n    </button>  -->\n    <button *ngIf="isLoggedin()" menuClose class="menu-item" ion-item (click)="favourite()">\n      <ion-icon name="heart" item-left></ion-icon>\n      <span class="menu-text"> {{\'Wishlist\'| translate}} </span>\n      <!-- <ion-badge class="menu-badge">{{noOfItemsInFevrt}}</ion-badge> -->\n    </button>\n\n <!----   <button *ngIf="isLoggedin()" menuClose class="menu-item" ion-item (click)="manageAddress()">\n      <ion-icon name="pin" item-left></ion-icon>\n      <span class="menu-text"> {{\'Manage Address\'| translate}} </span>\n       <ion-badge class="menu-badge">{{noOfItemsInFevrt}}</ion-badge>\n    </button>  -->\n \n\n\n  <!-----  <button menuClose class="menu-item" ion-item (click)="contact()">\n      <ion-icon name="call" item-left></ion-icon>\n      <span class="menu-text"> {{\'Contact Us\'| translate}} </span>\n    </button>  -->\n    \n    <button menuClose class="menu-item" ion-item (click)="aboutUs()">\n      <ion-icon name="contacts" item-left></ion-icon>\n      <span class="menu-text"> {{\'About Us\'| translate}} </span>\n    </button>\n   <button menuClose class="menu-item" ion-item *ngIf="isLoggedin()" (click)="presentActionSheet()">\n    <ion-icon name="share-social" item-left></ion-icon>\n    <span class="menu-text">{{\'Invite Friends\' | translate}} </span>\n    </button>\n  <!----  <button *ngIf="isLoggedin()" menuClose class="menu-item" ion-item (click)="chat()">\n      <ion-icon name="chatbubbles" item-left></ion-icon>\n      {{\'Chat\' | translate}}\n    </button>  -->\n   \n    <button *ngIf="!isLoggedin()" menuClose class="menu-item" ion-item (click)="login()">\n      <ion-icon name="log-in" item-left></ion-icon>\n      <span class="menu-text"> {{\'Login\'| translate}} </span>\n    </button>\n    <button *ngIf="isLoggedin()" ion-item (click)="confirmLogout()" menuClose class="menu-item">\n      <ion-icon name="log-out" item-left></ion-icon>\n      <span class="menu-text"> {{\'Logout\'| translate}} </span>\n    </button>\n  </ion-content>\n</ion-menu>\n\n<!-- Disable swipe-to-go-back because it\'s poor UX to combine STGB with side menus -->\n<ion-nav [root]="rootPage" #content swipeBackEnabled="false"></ion-nav>\n'/*ion-inline-end:"/home/jeffrey/Developer/Projects/Kafas Xpress Gas Limited/Kafas_Web_IonicV3/src/app/app.html"*/,
             selector: "MyApp",
             providers: [__WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */], __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */], __WEBPACK_IMPORTED_MODULE_6__ionic_native_onesignal__["a" /* OneSignal */]]
         }),
-        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_4__angular_fire_auth__["a" /* AngularFireAuth */],
-            __WEBPACK_IMPORTED_MODULE_5__angular_fire_database__["a" /* AngularFireDatabase */],
-            __WEBPACK_IMPORTED_MODULE_10__providers_user_user__["a" /* UserProvider */],
-            __WEBPACK_IMPORTED_MODULE_11__providers_imghandler_imghandler__["a" /* ImghandlerProvider */],
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["m" /* Platform */],
-            __WEBPACK_IMPORTED_MODULE_12__ionic_storage__["b" /* Storage */],
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* AlertController */],
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["o" /* ToastController */],
-            __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */],
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* LoadingController */],
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* ActionSheetController */],
-            __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */],
-            __WEBPACK_IMPORTED_MODULE_8__ionic_native_social_sharing__["a" /* SocialSharing */],
-            __WEBPACK_IMPORTED_MODULE_6__ionic_native_onesignal__["a" /* OneSignal */],
-            __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["c" /* Events */],
-            __WEBPACK_IMPORTED_MODULE_0__angular_core__["NgZone"],
-            __WEBPACK_IMPORTED_MODULE_9__providers_social_social__["a" /* SocialProvider */]
-            //   private translateService: TranslateService
-        ])
+        __metadata("design:paramtypes", [typeof (_b = typeof __WEBPACK_IMPORTED_MODULE_4__angular_fire_auth__["a" /* AngularFireAuth */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_4__angular_fire_auth__["a" /* AngularFireAuth */]) === "function" && _b || Object, typeof (_c = typeof __WEBPACK_IMPORTED_MODULE_5__angular_fire_database__["a" /* AngularFireDatabase */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_5__angular_fire_database__["a" /* AngularFireDatabase */]) === "function" && _c || Object, typeof (_d = typeof __WEBPACK_IMPORTED_MODULE_10__providers_user_user__["a" /* UserProvider */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_10__providers_user_user__["a" /* UserProvider */]) === "function" && _d || Object, typeof (_e = typeof __WEBPACK_IMPORTED_MODULE_11__providers_imghandler_imghandler__["a" /* ImghandlerProvider */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_11__providers_imghandler_imghandler__["a" /* ImghandlerProvider */]) === "function" && _e || Object, typeof (_f = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["m" /* Platform */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["m" /* Platform */]) === "function" && _f || Object, typeof (_g = typeof __WEBPACK_IMPORTED_MODULE_12__ionic_storage__["b" /* Storage */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_12__ionic_storage__["b" /* Storage */]) === "function" && _g || Object, typeof (_h = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* AlertController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["b" /* AlertController */]) === "function" && _h || Object, typeof (_j = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["o" /* ToastController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["o" /* ToastController */]) === "function" && _j || Object, typeof (_k = typeof __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */]) === "function" && _k || Object, typeof (_l = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* LoadingController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* LoadingController */]) === "function" && _l || Object, typeof (_m = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* ActionSheetController */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["a" /* ActionSheetController */]) === "function" && _m || Object, typeof (_o = typeof __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */]) === "function" && _o || Object, typeof (_p = typeof __WEBPACK_IMPORTED_MODULE_8__ionic_native_social_sharing__["a" /* SocialSharing */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_8__ionic_native_social_sharing__["a" /* SocialSharing */]) === "function" && _p || Object, typeof (_q = typeof __WEBPACK_IMPORTED_MODULE_6__ionic_native_onesignal__["a" /* OneSignal */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_6__ionic_native_onesignal__["a" /* OneSignal */]) === "function" && _q || Object, typeof (_r = typeof __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["c" /* Events */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["c" /* Events */]) === "function" && _r || Object, typeof (_s = typeof __WEBPACK_IMPORTED_MODULE_0__angular_core__["NgZone"] !== "undefined" && __WEBPACK_IMPORTED_MODULE_0__angular_core__["NgZone"]) === "function" && _s || Object, typeof (_t = typeof __WEBPACK_IMPORTED_MODULE_9__providers_social_social__["a" /* SocialProvider */] !== "undefined" && __WEBPACK_IMPORTED_MODULE_9__providers_social_social__["a" /* SocialProvider */]) === "function" && _t || Object])
     ], MyApp);
     return MyApp;
+    var _a, _b, _c, _d, _e, _f, _g, _h, _j, _k, _l, _m, _o, _p, _q, _r, _s, _t;
 }());
 
 //# sourceMappingURL=app.component.js.map

@@ -45,7 +45,7 @@ export class MyApp {
   lastName: any;
   email: any;
   imageUrl: any = "assets/img/profile.jpg";
-  rootPage: string;
+  rootPage: any;
   public uid: string;
 
   public file: any = {};
@@ -113,23 +113,19 @@ export class MyApp {
  //   private translateService: TranslateService
   ) {
 
-     this.splashscreen.show();
+  /*   this.splashscreen.show();
     let loader = this.loadingCtrl.create({
       //  content: "Please wait..",
         spinner: "dots",
         cssClass: 'my-loading-class'
       });
-    loader.present();
+    loader.present();*/
 
     const unsubscribe = firebase.auth().onAuthStateChanged(user => {
       if (user) {
         this.rootPage = 'DashboardPage'; 
         unsubscribe();
-        loader.dismiss();
-      } else {
-        this.rootPage = 'LoginPage';
-        unsubscribe();
-        loader.dismiss();
+      //  loader.dismiss();
       }
     });
 
